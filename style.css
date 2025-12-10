@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+}
+
+#navbar {
+  background: #222;
+  color: white;
+  padding: 12px;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.nav-item:hover {
+  opacity: 1;
+}
+
+#app {
+  padding: 20px;
+}
+
+.flashcard {
+  width: 300px;
+  height: 200px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: auto;
+  cursor: pointer;
+  user-select: none;
+}

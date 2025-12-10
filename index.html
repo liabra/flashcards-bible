@@ -1,23 +1,60 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bible Duo Flashcards</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards – Versets Bibliques</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="manifest" href="manifest.json"> 
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </head>
 
 <body>
-    <div id="navbar"></div>
-    <div id="app"></div>
 
-    <script src="components/router.js"></script>
-    <script src="components/navbar.js"></script>
-    <script src="components/flashcard.js"></script>
+  <div class="container">
+    <h1>📖 Versets Bibliques</h1> 
+    
+    <div class="scene">
+      <div class="card" onclick="flipCard()">
+        
+        <!-- RECTO = référence du verset -->
+        <div class="card__face card__face--front">
+          <h2 id="verse-reference">?</h2>
+          <p class="hint">Touche pour retourner</p>
+        </div>
 
-    <script src="data/solfege.js"></script>
-    <script src="data/bible.js"></script>
+        <!-- VERSO = texte du verset -->
+        <div class="card__face card__face--back">
+          <p id="verse-text" style="padding: 20px; font-size: 1.1rem; text-align: center;"></p>
 
-    <script src="app.js"></script>
+          <p class="swipe-hint">➡️ Je sais / ⬅️ J'hésite</p>
+
+          <button class="next-btn" onclick="nextCard(event)">Verset Suivant</button>
+        </div>
+
+      </div>
+    </div>
+    
+    <div class="instructions">
+        <p>Touche la carte pour voir le verset.</p>
+        <p>👉 GLISSE À DROITE : Tu maîtrises (moins fréquent)</p>
+        <p>👈 GLISSE À GAUCHE : Tu hésites (plus fréquent)</p>
+    </div>
+
+  </div>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log("SW enregistré"))
+        .catch(err => console.log("SW échec", err));
+    });
+  }
+</script>
+
+<script src="bibleData.js"></script>
+<script src="script-bible.js"></script>
+
 </body>
 </html>

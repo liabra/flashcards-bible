@@ -7,22 +7,23 @@ const verseText = document.getElementById('verse-text');
 let currentIndex = 0;
 let currentVerse = null;
 
-// Variables SWIPE
+// Variables SWIPE mobile
 let touchstartX = 0;
 let touchendX = 0;
 const SWIPE_THRESHOLD = 50;
+
+// Variables SWIPE souris
+let mouseDownX = 0;
+let mouseUpX = 0;
 
 
 // --- Fonction SRS pondérée ---
 function getRandomVerseIndex() {
   const totalWeight = bibleData.reduce((sum, v) => sum + v.weight, 0);
-
   let randomWeight = Math.random() * totalWeight;
 
   for (let i = 0; i < bibleData.length; i++) {
-    if (randomWeight < bibleData[i].weight) {
-      return i;
-    }
+    if (randomWeight < bibleData[i].weight) return i;
     randomWeight -= bibleData[i].weight;
   }
 }
@@ -42,21 +43,16 @@ function loadVerse() {
 // --- Mise à jour des poids (SRS) ---
 function updateWeight(isKnown) {
   let v = bibleData[currentIndex];
-
-  if (isKnown) {
-    v.weight = Math.max(0.1, v.weight * 0.5);
-  } else {
-    v.weight = Math.min(5.0, v.weight * 2);
-  }
+  if (isKnown) v.weight = Math.max(0.1, v.weight * 0.5);
+  else v.weight = Math.min(5.0, v.weight * 2);
 }
 
 
-// --- Flip de la carte ---
+// --- Flip ---
 function flipCard() {
   if (!card.classList.contains("is-flipped")) {
     card.classList.add("is-flipped");
 
-    // Confettis à l'affichage du verset
     confetti({
       particleCount: 80,
       spread: 70,
@@ -69,52 +65,97 @@ function flipCard() {
 // --- Carte suivante ---
 function nextCard(e) {
   if (e) e.stopPropagation();
-
-  card.classList.remove(
-    "is-flipped",
-    "is-known",
-    "is-unknown",
-    "swipe-right",
-    "swipe-left"
-  );
-
+  card.classList.remove("is-flipped", "is-known", "is-unknown", "swipe-right", "swipe-left");
   setTimeout(loadVerse, 50);
 }
 
 
-// --- SWIPE LOGIC ---
-function checkDirection() {
+// --- SWIPE MOBILE ---
+function checkDirectionTouch() {
   const dist = touchendX - touchstartX;
+  if (Math.abs(dist) < SWIPE_THRESHOLD) return flipCard();
 
-  if (Math.abs(dist) < SWIPE_THRESHOLD) return;
-
-  if (card.classList.contains("is-flipped")) {
-    if (dist > 0) {
-      updateWeight(true);
-      card.classList.add("is-known", "swipe-right");
-    } else {
-      updateWeight(false);
-      card.classList.add("is-unknown", "swipe-left");
-    }
-
-    setTimeout(nextCard, 300);
-  } else {
-    flipCard();
-  }
+  handleSwipe(dist);
 }
 
-card.addEventListener("touchstart", e => {
-  touchstartX = e.changedTouches[0].screenX;
-});
-
+card.addEventListener("touchstart", e => touchstartX = e.changedTouches[0].screenX);
 card.addEventListener("touchend", e => {
   touchendX = e.changedTouches[0].screenX;
-  checkDirection();
+  checkDirectionTouch();
 });
 
-card.onclick = () => {
-  if (!card.classList.contains("is-flipped")) flipCard();
-};
+
+// --- SWIPE SOURIS ---
+card.addEventListener("mousedown", e => mouseDownX = e.clientX);
+card.addEventListener("mouseup", e => {
+  mouseUpX = e.clientX;
+  const dist = mouseUpX - mouseDownX;
+
+  if (Math.abs(dist) < SWIPE_THRESHOLD) return flipCard();
+  handleSwipe(dist);
+});
+
+
+// --- SWIPE LOGIC (commun à souris & tactile) ---
+function handleSwipe(dist) {
+  if (!card.classList.contains("is-flipped")) return flipCard();
+
+  if (dist > 0) {
+    updateWeight(true);
+    card.classList.add("is-known", "swipe-right");
+  } else {
+    updateWeight(false);
+    card.classList.add("is-unknown", "swipe-left");
+  }
+
+  setTimeout(nextCard, 300);
+}
+
+
+// --- DOUBLE CLIC = JE SAIS ---
+card.addEventListener("dblclick", e => {
+  e.preventDefault();
+  if (card.classList.contains("is-flipped")) {
+    updateWeight(true);
+    card.classList.add("is-known", "swipe-right");
+    setTimeout(nextCard, 300);
+  } else flipCard();
+});
+
+
+// --- CLIC DROIT = J'HÉSITE ---
+card.addEventListener("contextmenu", e => {
+  e.preventDefault();
+  if (card.classList.contains("is-flipped")) {
+    updateWeight(false);
+    card.classList.add("is-unknown", "swipe-left");
+    setTimeout(nextCard, 300);
+  } else flipCard();
+});
+
+
+// --- CLAVIER (Desktop) ---
+document.addEventListener("keydown", e => {
+
+  if (e.key === "Enter" || e.key === " ") {
+    // Flip
+    flipCard();
+  }
+
+  if (!card.classList.contains("is-flipped")) return;
+
+  if (e.key === "ArrowRight") {
+    updateWeight(true);
+    card.classList.add("is-known", "swipe-right");
+    setTimeout(nextCard, 300);
+  }
+
+  if (e.key === "ArrowLeft") {
+    updateWeight(false);
+    card.classList.add("is-unknown", "swipe-left");
+    setTimeout(nextCard, 300);
+  }
+});
 
 
 // --- Initialisation ---

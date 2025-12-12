@@ -1,68 +1,57 @@
-const CACHE_NAME = 'solfege-quiz-v1';
+// --- VERSIONING DU CACHE (changer le numéro force une mise à jour) ---
+const CACHE_NAME = 'bible-flashcards-v3';
 
+// --- LISTE DES FICHIERS À CACHER ---
 const urlsToCache = [
-  '/',
   '/index.html',
   '/style.css',
-  '/script.js',
+  '/script-bible.js',
+  '/bibleData.js',
   '/manifest.json',
   '/sw.js',
 
-  // ICONES PWA
+  // ICONES PWA (si tu en ajoutes)
   '/assets/icon-192.png',
-  '/assets/icon-512.png',
-
-  // AUTRES ASSETS
-  '/assets/treble.svg',
-
-  // AUDIOS
-  '/Notes/do.mp3',
-  '/Notes/re.mp3',
-  '/Notes/mi.mp3',
-  '/Notes/fa.mp3',
-  '/Notes/sol.mp3',
-  '/Notes/la.mp3',
-  '/Notes/si.mp3'
+  '/assets/icon-512.png'
 ];
 
-// Installation: Mise en cache initiale des fichiers
+// --- INSTALLATION ---
 self.addEventListener('install', event => {
+  console.log('[SW] Install');
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then(cache => {
-        console.log('Opened cache');
-        return cache.addAll(urlsToCache);
-      })
+      .then(cache => cache.addAll(urlsToCache))
+      .then(() => self.skipWaiting())
   );
 });
 
-// Fetch: Servir le contenu depuis le cache si disponible
-self.addEventListener('fetch', event => {
-  event.respondWith(
-    caches.match(event.request)
-      .then(response => {
-        // Si le fichier est dans le cache, on le retourne
-        if (response) {
-          return response;
-        }
-        // Sinon, on va le chercher sur le réseau
-        return fetch(event.request);
-      })
-  );
-});
-
-// Activation: Nettoyer les anciens caches pour mettre à jour l'application
+// --- ACTIVATION (NETTOYAGE ANCIENS CACHES) ---
 self.addEventListener('activate', event => {
-  const cacheWhitelist = [CACHE_NAME];
+  console.log('[SW] Activate');
   event.waitUntil(
-    caches.keys().then(cacheNames => {
+    caches.keys().then(keys => {
       return Promise.all(
-        cacheNames.map(cacheName => {
-          if (!cacheWhitelist.includes(cacheName)) {
-            return caches.delete(cacheName);
+        keys.map(key => {
+          if (key !== CACHE_NAME) {
+            console.log('[SW] Suppression ancien cache:', key);
+            return caches.delete(key);
           }
         })
       );
-    })
+    }).then(() => self.clients.claim())
+  );
+});
+
+// --- FETCH STRATÉGIE: NETWORK FIRST + FALLBACK CACHE ---
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    fetch(event.request)
+      .then(response => {
+        // Clone la réponse pour la mettre en cache
+        const responseClone = response.clone();
+        caches.open(CACHE_NAME).then(cache => cache.put(event.request, responseClone));
+        return response;
+      })
+      .catch(() => caches.match(event.request))
   );
 });

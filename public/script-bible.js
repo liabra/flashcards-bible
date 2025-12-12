@@ -27,7 +27,6 @@ function getRandomVerseIndex() {
   return 0;
 }
 
-
 function loadVerse() {
   if (!activeData || activeData.length === 0) return;
 
@@ -50,7 +49,6 @@ function loadVerse() {
     verseText.innerText = currentVerse.text;
   }
 }
-
 
 function updateWeight(isKnown) {
   let v = activeData[currentIndex];
@@ -80,12 +78,27 @@ function flipCard() {
 
 
 // ---------------------------
-//        NEXT CARD
+//        NEXT CARD (CORRIGÉE)
 // ---------------------------
 function nextCard(e) {
   if (e) e.stopPropagation();
-  card.classList.remove("is-flipped", "is-known", "is-unknown", "swipe-right", "swipe-left");
-  setTimeout(loadVerse, 50);
+
+  // On enlève les classes d'état visuel
+  card.classList.remove("is-known", "is-unknown", "swipe-right", "swipe-left");
+
+  // On écoute la fin de la transition du swipe
+  const onTransitionEnd = () => {
+    card.removeEventListener("transitionend", onTransitionEnd);
+
+    // On retourne la carte à son état normal
+    card.classList.remove("is-flipped");
+
+    // On charge ensuite la nouvelle data
+    loadVerse();
+  };
+
+  // On attend la fin de la transition
+  card.addEventListener("transitionend", onTransitionEnd);
 }
 
 
@@ -139,7 +152,8 @@ function handleSwipe(dist) {
     card.classList.add("is-unknown", "swipe-left");
   }
 
-  setTimeout(nextCard, 300);
+  // ❌ IMPORTANT : plus de setTimeout ici
+  // Le changement se fait via transitionend dans nextCard()
 }
 
 
@@ -151,7 +165,7 @@ card.addEventListener("dblclick", e => {
   if (card.classList.contains("is-flipped")) {
     updateWeight(true);
     card.classList.add("is-known", "swipe-right");
-    setTimeout(nextCard, 300);
+    nextCard(); // PAS de timeout
   } else flipCard();
 });
 
@@ -160,7 +174,7 @@ card.addEventListener("contextmenu", e => {
   if (card.classList.contains("is-flipped")) {
     updateWeight(false);
     card.classList.add("is-unknown", "swipe-left");
-    setTimeout(nextCard, 300);
+    nextCard(); // PAS de timeout
   } else flipCard();
 });
 
@@ -179,13 +193,13 @@ document.addEventListener("keydown", e => {
   if (e.key === "ArrowRight") {
     updateWeight(true);
     card.classList.add("is-known", "swipe-right");
-    setTimeout(nextCard, 300);
+    nextCard();
   }
 
   if (e.key === "ArrowLeft") {
     updateWeight(false);
     card.classList.add("is-unknown", "swipe-left");
-    setTimeout(nextCard, 300);
+    nextCard();
   }
 });
 

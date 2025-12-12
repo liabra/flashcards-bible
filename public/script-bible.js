@@ -36,7 +36,6 @@ function loadVerse() {
 
   verseRef.innerText = currentVerse.reference;
 
-  // Versets simples OU promesses avec application
   if (currentVerse.application) {
     verseText.innerHTML = `
       ${currentVerse.text}
@@ -78,26 +77,34 @@ function flipCard() {
 
 
 // ---------------------------
-//        NEXT CARD (CORRIGÉE)
+//        NEXT CARD (VERSION OPTIMISÉE)
 // ---------------------------
-function nextCard(e) {
+function nextCard(e, fromSwipe = false) {
   if (e) e.stopPropagation();
 
-  // On enlève les classes d'état visuel
-  card.classList.remove("is-known", "is-unknown", "swipe-right", "swipe-left");
+  // Si ce n’est PAS un swipe, on change immédiatement
+  if (!fromSwipe) {
+    card.classList.remove("is-flipped", "is-known", "is-unknown");
+    loadVerse();
+    return;
+  }
 
-  // On écoute la fin de la transition du swipe
-  const onTransitionEnd = () => {
+  // Gestion du swipe → transitionend
+  const onTransitionEnd = (event) => {
+    if (event.propertyName !== "transform") return;
+
+    // On coupe après la bonne transition
     card.removeEventListener("transitionend", onTransitionEnd);
 
-    // On retourne la carte à son état normal
+    // Nettoyage
+    card.classList.remove("swipe-right", "swipe-left");
+    card.classList.remove("is-known", "is-unknown");
     card.classList.remove("is-flipped");
 
-    // On charge ensuite la nouvelle data
+    // Nouvelle carte
     loadVerse();
   };
 
-  // On attend la fin de la transition
   card.addEventListener("transitionend", onTransitionEnd);
 }
 
@@ -152,8 +159,7 @@ function handleSwipe(dist) {
     card.classList.add("is-unknown", "swipe-left");
   }
 
-  // ❌ IMPORTANT : plus de setTimeout ici
-  // Le changement se fait via transitionend dans nextCard()
+  nextCard(null, true); // → mode swipe
 }
 
 
@@ -164,8 +170,8 @@ card.addEventListener("dblclick", e => {
   e.preventDefault();
   if (card.classList.contains("is-flipped")) {
     updateWeight(true);
-    card.classList.add("is-known", "swipe-right");
-    nextCard(); // PAS de timeout
+    card.classList.add("is-known");
+    nextCard(null, false);
   } else flipCard();
 });
 
@@ -173,8 +179,8 @@ card.addEventListener("contextmenu", e => {
   e.preventDefault();
   if (card.classList.contains("is-flipped")) {
     updateWeight(false);
-    card.classList.add("is-unknown", "swipe-left");
-    nextCard(); // PAS de timeout
+    card.classList.add("is-unknown");
+    nextCard(null, false);
   } else flipCard();
 });
 
@@ -192,14 +198,14 @@ document.addEventListener("keydown", e => {
 
   if (e.key === "ArrowRight") {
     updateWeight(true);
-    card.classList.add("is-known", "swipe-right");
-    nextCard();
+    card.classList.add("is-known");
+    nextCard(null, false);
   }
 
   if (e.key === "ArrowLeft") {
     updateWeight(false);
-    card.classList.add("is-unknown", "swipe-left");
-    nextCard();
+    card.classList.add("is-unknown");
+    nextCard(null, false);
   }
 });
 
@@ -225,7 +231,6 @@ function setMode(mode) {
     document.querySelector('button[onclick="setMode(\'mix\')"]').classList.add("active");
   }
 
-  // Reset visuel + chargement d’une nouvelle carte
   card.classList.remove("is-flipped", "is-known", "is-unknown", "swipe-right", "swipe-left");
   loadVerse();
 }

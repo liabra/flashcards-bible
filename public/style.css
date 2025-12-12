@@ -10,7 +10,7 @@ body {
 }
 
 .container { text-align: center; }
-h1 { color: #333; margin-bottom: 30px; font-size: 2.2rem; } /* Titre ajusté */
+h1 { color: #333; margin-bottom: 30px; font-size: 2.2rem; }
 
 /* SCÈNE 3D */
 .scene {
@@ -25,7 +25,10 @@ h1 { color: #333; margin-bottom: 30px; font-size: 2.2rem; } /* Titre ajusté */
   width: 100%;
   height: 100%;
   position: relative;
-  transition: transform 0.6s;
+
+  /* 🔥 Flip plus rapide = meilleure synchro */
+  transition: transform 0.45s;
+
   transform-style: preserve-3d;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
@@ -33,13 +36,11 @@ h1 { color: #333; margin-bottom: 30px; font-size: 2.2rem; } /* Titre ajusté */
 
 .card.is-flipped { transform: rotateY(180deg); }
 
-/* --- FEEDBACK VISUEL SRS --- */
-/* Vert pour "Je sais" (Swipe Droite) */
+/* --- FEEDBACK SRS --- */
 .card.is-known {
   border: 5px solid #2ecc71; 
   box-shadow: 0 0 40px rgba(46, 204, 113, 0.7);
 }
-/* Rouge pour "Je ne sais pas" (Swipe Gauche) */
 .card.is-unknown {
   border: 5px solid #e74c3c; 
   box-shadow: 0 0 40px rgba(231, 76, 60, 0.7);
@@ -56,7 +57,7 @@ h1 { color: #333; margin-bottom: 30px; font-size: 2.2rem; } /* Titre ajusté */
 }
 
 .card.swipe-right, .card.swipe-left {
-    transition: transform 0.3s ease-out, border 0.1s;
+  transition: transform 0.3s ease-out, border 0.1s;
 }
 
 .card__face {
@@ -78,20 +79,36 @@ h1 { color: #333; margin-bottom: 30px; font-size: 2.2rem; } /* Titre ajusté */
   color: black;
 }
 
+/* ----------------------------------------------------- */
+/* 🔥🔥 VERSION PREMIUM ANTI-FLASH POUR LE VERSO 🔥🔥 */
+/* ----------------------------------------------------- */
 .card__face--back {
   background: #6c5ce7;
   color: white;
-  transform: rotateY(180deg);   /* INDISPENSABLE pour que le verso soit visible */
+  transform: rotateY(180deg);
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
+  /* ❗ Le verso est invisible tant que le flip n’est pas fini */
+  opacity: 0;
+  transition: opacity 0s linear 0.45s;
+}
+
+/* Quand la carte est retournée → montrer le verso */
+.card.is-flipped .card__face--back {
+  opacity: 1;
+  transition-delay: 0s;
 }
 
 .card__face--back p {
   color: white !important;
 }
+/* ----------------------------------------------------- */
+/* FIN VERSION PREMIUM ANTI-FLASH */
+/* ----------------------------------------------------- */
 
 #verse-text {
   font-size: 1.1rem;
@@ -102,13 +119,13 @@ h1 { color: #333; margin-bottom: 30px; font-size: 2.2rem; } /* Titre ajusté */
   margin: 0 auto;
 }
 
-/* PORTÉE MUSICALE RIGIDE (non utilisée mais laissée telle quelle) */
+/* (Votre système de notes… inchangé) */
 .staff {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 22px; 
-  padding: 40px 0; 
+  gap: 22px;
+  padding: 40px 0;
   width: 80%;
 }
 
@@ -118,7 +135,6 @@ h1 { color: #333; margin-bottom: 30px; font-size: 2.2rem; } /* Titre ajusté */
   background-color: #333;
 }
 
-/* LA NOTE */
 .note {
   width: 28px;
   height: 20px;
@@ -130,7 +146,6 @@ h1 { color: #333; margin-bottom: 30px; font-size: 2.2rem; } /* Titre ajusté */
   transition: top 0.2s ease;
 }
 
-/* La queue de la note */
 .note::after {
   content: '';
   position: absolute;
@@ -141,7 +156,6 @@ h1 { color: #333; margin-bottom: 30px; font-size: 2.2rem; } /* Titre ajusté */
   background: black;
 }
 
-/* La barre spéciale pour le DO */
 .note.is-do::before {
   content: '';
   position: absolute;
@@ -154,7 +168,6 @@ h1 { color: #333; margin-bottom: 30px; font-size: 2.2rem; } /* Titre ajusté */
   z-index: -1;
 }
 
-/* Autres */
 .hint {
   margin-top: 25px;
   color: #777;
@@ -170,35 +183,39 @@ h2 {
 }
 
 .next-btn {
-  margin-top: 20px; padding: 12px 24px; font-size: 1.1rem;
-  background: white; color: #6c5ce7; border: none;
-  border-radius: 50px; cursor: pointer; font-weight: bold;
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  background: white;
+  color: #6c5ce7;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
-/* --- STYLE DES INSTRUCTIONS --- */
+/* --- INSTRUCTIONS --- */
 .instructions {
-    margin-top: 30px;
-    padding: 15px;
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 10px;
-    color: #333;
-    font-size: 0.95rem;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.4;
+  margin-top: 30px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  color: #333;
+  font-size: 0.95rem;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.4;
 }
-.instructions p {
-    margin: 5px 0;
-}
+.instructions p { margin: 5px 0; }
 
 .swipe-hint {
-    margin-top: 10px;
-    font-weight: bold;
-    font-size: 1.1rem;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
-/* --- ONGLET DE MODE (Versets / Promesses / Mix) --- */
+/* --- ONGLET MODE --- */
 .tabs {
   text-align: center;
   margin-bottom: 20px;
@@ -220,7 +237,7 @@ h2 {
   color: white;
 }
 
-/* --- BLOC APPLICATION (verso Promesses) --- */
+/* --- APPLICATION --- */
 .application-title {
   font-weight: bold;
   margin-top: 10px;

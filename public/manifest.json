@@ -1,7 +1,7 @@
 {
-  "name": "Mémoire Musicale",
-  "short_name": "Solfège",
-  "description": "Jeu d'entraînement à la lecture de notes en Clé de Sol.",
+  "name": "Flashcards Bibliques",
+  "short_name": "BibleCards",
+  "description": "Jeu interactif de mémorisation des versets et des promesses de la Bible.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -10,13 +10,13 @@
 
   "icons": [
     {
-      "src": "/assets/note-icon-192.png",
+      "src": "/assets/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/note-icon-512.png",
+      "src": "/assets/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"

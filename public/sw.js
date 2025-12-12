@@ -1,5 +1,5 @@
 // --- VERSIONING DU CACHE (changer le numéro force une mise à jour) ---
-const CACHE_NAME = 'bible-flashcards-v3';
+const CACHE_NAME = 'bible-flashcards-v4';
 
 // --- LISTE DES FICHIERS À CACHER ---
 const urlsToCache = [
@@ -7,6 +7,7 @@ const urlsToCache = [
   '/style.css',
   '/script-bible.js',
   '/bibleData.js',
+  '/promisesData.js',
   '/manifest.json',
   '/sw.js',
 
@@ -47,7 +48,6 @@ self.addEventListener('fetch', event => {
   event.respondWith(
     fetch(event.request)
       .then(response => {
-        // Clone la réponse pour la mettre en cache
         const responseClone = response.clone();
         caches.open(CACHE_NAME).then(cache => cache.put(event.request, responseClone));
         return response;

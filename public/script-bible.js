@@ -7,48 +7,65 @@ const verseText = document.getElementById('verse-text');
 let currentIndex = 0;
 let currentVerse = null;
 
-// Variables SWIPE mobile
-let touchstartX = 0;
-let touchendX = 0;
-const SWIPE_THRESHOLD = 50;
-
-// Variables SWIPE souris
-let mouseDownX = 0;
-let mouseUpX = 0;
+// Base de données active (modifiable par les onglets)
+let activeData = [...bibleData]; // par défaut = versets
 
 
-// --- Fonction SRS pondérée ---
+// ---------------------------
+//      SRS & RANDOM PICK
+// ---------------------------
 function getRandomVerseIndex() {
-  const totalWeight = bibleData.reduce((sum, v) => sum + v.weight, 0);
+  if (!activeData || activeData.length === 0) return 0;
+
+  const totalWeight = activeData.reduce((sum, v) => sum + v.weight, 0);
   let randomWeight = Math.random() * totalWeight;
 
-  for (let i = 0; i < bibleData.length; i++) {
-    if (randomWeight < bibleData[i].weight) return i;
-    randomWeight -= bibleData[i].weight;
+  for (let i = 0; i < activeData.length; i++) {
+    if (randomWeight < activeData[i].weight) return i;
+    randomWeight -= activeData[i].weight;
+  }
+  return 0;
+}
+
+
+function loadVerse() {
+  if (!activeData || activeData.length === 0) return;
+
+  const idx = getRandomVerseIndex();
+  currentIndex = idx;
+  currentVerse = activeData[idx];
+
+  verseRef.innerText = currentVerse.reference;
+
+  // Versets simples OU promesses avec application
+  if (currentVerse.application) {
+    verseText.innerHTML = `
+      ${currentVerse.text}
+      <br><br>
+      <span class="application-title">Application :</span>
+      <br>
+      <span class="application-text">${currentVerse.application}</span>
+    `;
+  } else {
+    verseText.innerText = currentVerse.text;
   }
 }
 
 
-// --- Chargement du verset ---
-function loadVerse() {
-  const idx = getRandomVerseIndex();
-  currentIndex = idx;
-  currentVerse = bibleData[idx];
-
-  verseRef.innerText = currentVerse.reference;
-  verseText.innerText = currentVerse.text;
-}
-
-
-// --- Mise à jour des poids (SRS) ---
 function updateWeight(isKnown) {
-  let v = bibleData[currentIndex];
-  if (isKnown) v.weight = Math.max(0.1, v.weight * 0.5);
-  else v.weight = Math.min(5.0, v.weight * 2);
+  let v = activeData[currentIndex];
+
+  if (isKnown) {
+    v.weight = Math.max(0.1, v.weight * 0.5);
+  } else {
+    v.weight = Math.min(5.0, v.weight * 2);
+  }
 }
 
 
-// --- Flip ---
+// ---------------------------
+//           FLIP
+// ---------------------------
 function flipCard() {
   if (!card.classList.contains("is-flipped")) {
     card.classList.add("is-flipped");
@@ -62,7 +79,9 @@ function flipCard() {
 }
 
 
-// --- Carte suivante ---
+// ---------------------------
+//        NEXT CARD
+// ---------------------------
 function nextCard(e) {
   if (e) e.stopPropagation();
   card.classList.remove("is-flipped", "is-known", "is-unknown", "swipe-right", "swipe-left");
@@ -70,11 +89,16 @@ function nextCard(e) {
 }
 
 
-// --- SWIPE MOBILE ---
+// ---------------------------
+//       SWIPE TOUCH
+// ---------------------------
+let touchstartX = 0;
+let touchendX = 0;
+const SWIPE_THRESHOLD = 50;
+
 function checkDirectionTouch() {
   const dist = touchendX - touchstartX;
   if (Math.abs(dist) < SWIPE_THRESHOLD) return flipCard();
-
   handleSwipe(dist);
 }
 
@@ -85,7 +109,12 @@ card.addEventListener("touchend", e => {
 });
 
 
-// --- SWIPE SOURIS ---
+// ---------------------------
+//       SWIPE MOUSE
+// ---------------------------
+let mouseDownX = 0;
+let mouseUpX = 0;
+
 card.addEventListener("mousedown", e => mouseDownX = e.clientX);
 card.addEventListener("mouseup", e => {
   mouseUpX = e.clientX;
@@ -96,7 +125,9 @@ card.addEventListener("mouseup", e => {
 });
 
 
-// --- SWIPE LOGIC (commun à souris & tactile) ---
+// ---------------------------
+//        COMMON SWIPE
+// ---------------------------
 function handleSwipe(dist) {
   if (!card.classList.contains("is-flipped")) return flipCard();
 
@@ -112,7 +143,9 @@ function handleSwipe(dist) {
 }
 
 
-// --- DOUBLE CLIC = JE SAIS ---
+// ---------------------------
+//     DOUBLE CLICK / RIGHT CLICK
+// ---------------------------
 card.addEventListener("dblclick", e => {
   e.preventDefault();
   if (card.classList.contains("is-flipped")) {
@@ -122,8 +155,6 @@ card.addEventListener("dblclick", e => {
   } else flipCard();
 });
 
-
-// --- CLIC DROIT = J'HÉSITE ---
 card.addEventListener("contextmenu", e => {
   e.preventDefault();
   if (card.classList.contains("is-flipped")) {
@@ -134,11 +165,12 @@ card.addEventListener("contextmenu", e => {
 });
 
 
-// --- CLAVIER (Desktop) ---
+// ---------------------------
+//           CLAVIER
+// ---------------------------
 document.addEventListener("keydown", e => {
 
   if (e.key === "Enter" || e.key === " ") {
-    // Flip
     flipCard();
   }
 
@@ -158,5 +190,34 @@ document.addEventListener("keydown", e => {
 });
 
 
-// --- Initialisation ---
+// ---------------------------
+//         ONGLET : CHOIX DU MODE
+// ---------------------------
+function setMode(mode) {
+  document.querySelectorAll(".tab-button").forEach(btn => btn.classList.remove("active"));
+
+  if (mode === "verses") {
+    activeData = [...bibleData];
+    document.querySelector('button[onclick="setMode(\'verses\')"]').classList.add("active");
+  }
+
+  if (mode === "promises") {
+    activeData = [...promisesData];
+    document.querySelector('button[onclick="setMode(\'promises\')"]').classList.add("active");
+  }
+
+  if (mode === "mix") {
+    activeData = [...bibleData, ...promisesData];
+    document.querySelector('button[onclick="setMode(\'mix\')"]').classList.add("active");
+  }
+
+  // Reset visuel + chargement d’une nouvelle carte
+  card.classList.remove("is-flipped", "is-known", "is-unknown", "swipe-right", "swipe-left");
+  loadVerse();
+}
+
+
+// ---------------------------
+//         INIT
+// ---------------------------
 loadVerse();

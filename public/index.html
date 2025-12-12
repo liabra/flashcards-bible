@@ -12,8 +12,15 @@
 <body>
 
   <div class="container">
-    <h1>📖 Versets Bibliques</h1> 
+    <h1>📖 Flashcards Bibliques</h1> 
     
+    <!-- ONGLET DE SÉLECTION DU MODE -->
+    <div class="tabs">
+      <button class="tab-button active" onclick="setMode('verses')">Versets</button>
+      <button class="tab-button" onclick="setMode('promises')">Promesses</button>
+      <button class="tab-button" onclick="setMode('mix')">Mix</button>
+    </div>
+
     <div class="scene">
       <div class="card">
   
@@ -23,20 +30,20 @@
           <p class="hint">Touche pour retourner</p>
         </div>
 
-        <!-- VERSO = texte du verset -->
+        <!-- VERSO = texte du verset / promesse + application -->
         <div class="card__face card__face--back">
           <p id="verse-text" style="padding: 20px; font-size: 1.1rem; text-align: center;"></p>
 
           <p class="swipe-hint">➡️ Je sais / ⬅️ J'hésite</p>
 
-          <button class="next-btn" onclick="nextCard(event)">Verset Suivant</button>
+          <button class="next-btn" onclick="nextCard(event)">Verset / Promesse Suivant(e)</button>
         </div>
 
       </div>
     </div>
     
     <div class="instructions">
-        <p>Touche la carte pour voir le verset.</p>
+        <p>Touche la carte pour voir le verset ou la promesse.</p>
         <p>👉 GLISSE À DROITE : Tu maîtrises (moins fréquent)</p>
         <p>👈 GLISSE À GAUCHE : Tu hésites (plus fréquent)</p>
     </div>
@@ -54,6 +61,7 @@
 </script>
 
 <script src="bibleData.js"></script>
+<script src="promisesData.js"></script>
 <script src="script-bible.js"></script>
 
 </body>

@@ -94,15 +94,15 @@ h1 { color: #333; margin-bottom: 30px; font-size: 2.2rem; } /* Titre ajusté */
 }
 
 #verse-text {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.5;
-  padding: 20px 25px;
+  padding: 10px 20px;
   text-align: center;
   max-width: 90%;
   margin: 0 auto;
 }
 
-/* PORTÉE MUSICALE RIGIDE */
+/* PORTÉE MUSICALE RIGIDE (non utilisée mais laissée telle quelle) */
 .staff {
   position: relative;
   display: flex;
@@ -175,7 +175,7 @@ h2 {
   border-radius: 50px; cursor: pointer; font-weight: bold;
 }
 
-/* --- STYLE DES INSTRUCTIONS (NOUVEAU) --- */
+/* --- STYLE DES INSTRUCTIONS --- */
 .instructions {
     margin-top: 30px;
     padding: 15px;
@@ -196,4 +196,44 @@ h2 {
     margin-top: 10px;
     font-weight: bold;
     font-size: 1.1rem;
+}
+
+/* --- ONGLET DE MODE (Versets / Promesses / Mix) --- */
+.tabs {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  background: #ffffffaa;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.tab-button.active {
+  background: #6c5ce7;
+  color: white;
+}
+
+/* --- BLOC APPLICATION (verso Promesses) --- */
+.application-title {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ffeaa7;
+  font-size: 1rem;
+}
+
+.application-text {
+  margin-top: 5px;
+  font-size: 0.95rem;
+  color: #ffffff;
+  opacity: 0.95;
+  text-align: center;
+  padding: 0 10px;
+  line-height: 1.4;
 }

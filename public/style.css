@@ -81,6 +81,21 @@ h1 { color: #333; margin-bottom: 30px; font-size: 2.2rem; } /* Titre ajusté */
   justify-content: space-between;
 }
 
+.card__face--front {
+  background: white; /* recto = blanc */
+  color: black;
+}
+
+.card__face--back {
+  background: #6c5ce7; /* verso violet */
+  color: white;       /* texte visible */
+}
+
+.card__face--back p {
+  color: white !important;
+}
+
+
 #verse-text {
   font-size: 1.2rem;
   line-height: 1.5;

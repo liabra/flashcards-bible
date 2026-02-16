@@ -5,64 +5,98 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flashcards – Versets Bibliques</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="manifest" href="manifest.json"> 
+  <link rel="manifest" href="manifest.json">
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </head>
-
 <body>
 
   <div class="container">
-    <h1>📖 Flashcards Bibliques</h1> 
-    
-    <!-- ONGLET DE SÉLECTION DU MODE -->
+
+    <!-- HEADER -->
+    <div class="app-header">
+      <h1>📖 Flashcards Bibliques</h1>
+      <button class="theme-toggle" onclick="toggleTheme()" title="Mode sombre/clair">🌙</button>
+    </div>
+
+    <!-- STATISTIQUES -->
+    <div class="stats-bar">
+      <div class="stat-badge">🃏 <span class="stat-val" id="stat-total">0</span> vus</div>
+      <div class="stat-badge">✅ <span class="stat-val" id="stat-known">0</span> sus</div>
+      <div class="stat-badge">🎯 <span class="stat-val" id="stat-percent">0</span>%</div>
+    </div>
+
+    <!-- BARRE DE PROGRESSION -->
+    <div class="progress-bar-wrap">
+      <div class="progress-bar-fill" id="progress-fill" style="width: 0%"></div>
+    </div>
+
+    <!-- ONGLETS MODE -->
     <div class="tabs">
       <button class="tab-button active" onclick="setMode('verses')">Versets</button>
       <button class="tab-button" onclick="setMode('promises')">Promesses</button>
       <button class="tab-button" onclick="setMode('mix')">Mix</button>
+      <button class="tab-button" onclick="setMode('quiz')">📝 Quiz</button>
     </div>
 
+    <!-- BADGE MODE QUIZ -->
+    <div class="quiz-mode-indicator" id="quiz-indicator">MODE QUIZ ACTIF</div>
+
+    <!-- CARTE -->
     <div class="scene">
       <div class="card">
-  
-        <!-- RECTO = référence du verset -->
+
+        <!-- RECTO -->
         <div class="card__face card__face--front">
+          <div class="card-label">Référence</div>
           <h2 id="verse-reference">?</h2>
-          <p class="hint">Touche pour retourner</p>
+          <p class="hint">👆 Touche pour retourner</p>
         </div>
 
-        <!-- VERSO = texte du verset / promesse + application -->
+        <!-- VERSO -->
         <div class="card__face card__face--back">
-          <p id="verse-text" style="padding: 20px; font-size: 1.1rem; text-align: center;"></p>
+          <div class="verse-back-ref" id="verse-back-ref"></div>
 
-          <p class="swipe-hint">➡️ Je sais / ⬅️ J'hésite</p>
+          <!-- Texte normal (mode flashcard) -->
+          <p id="verse-text" style="padding: 4px; font-size: 1.05rem; text-align: center;"></p>
 
-          <button class="next-btn" onclick="nextCard(event)">Verset / Promesse Suivant(e)</button>
+          <!-- Zone quiz (mode quiz) -->
+          <div class="quiz-area" id="quiz-area">
+            <div id="quiz-verse-display" style="font-size:1rem; line-height:1.6; text-align:center; color:white; padding: 0 4px;"></div>
+            <input class="quiz-input" id="quiz-input" type="text" placeholder="Tapez la référence du verset…" autocomplete="off" />
+            <div class="quiz-feedback" id="quiz-feedback"></div>
+            <button class="quiz-btn" onclick="checkQuizAnswer()">Vérifier ✓</button>
+          </div>
+
+          <p class="swipe-hint">➡️ Je sais &nbsp;|&nbsp; ⬅️ J'hésite</p>
+          <button class="next-btn" onclick="nextCard(event)">Verset suivant →</button>
         </div>
 
       </div>
     </div>
-    
+
+    <!-- INSTRUCTIONS -->
     <div class="instructions">
-        <p>Touche la carte pour voir le verset ou la promesse.</p>
-        <p>👉 GLISSE À DROITE : Tu maîtrises (moins fréquent)</p>
-        <p>👈 GLISSE À GAUCHE : Tu hésites (plus fréquent)</p>
+      <p>👆 Touche la carte pour voir le verset.</p>
+      <p>👉 <strong>Glisse à droite</strong> : Tu maîtrises</p>
+      <p>👈 <strong>Glisse à gauche</strong> : Tu hésites</p>
+      <p>⌨️ Flèches ← → aussi disponibles</p>
     </div>
 
   </div>
 
-<script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js')
-        .then(reg => console.log("SW enregistré"))
-        .catch(err => console.log("SW échec", err));
-    });
-  }
-</script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(reg => console.log("SW enregistré"))
+          .catch(err => console.log("SW échec", err));
+      });
+    }
+  </script>
 
-<script src="bibleData.js"></script>
-<script src="promisesData.js"></script>
-<script src="script-bible.js"></script>
+  <script src="bibleData.js"></script>
+  <script src="promisesData.js"></script>
+  <script src="script-bible.js"></script>
 
 </body>
 </html>

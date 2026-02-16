@@ -1,175 +1,301 @@
-// --- CONFIGURATION SRS (spaced repetition) VERSION BIBLE ---
-
+// =============================================
+//   CONFIGURATION
+// =============================================
 const card = document.querySelector('.card');
 const verseRef = document.getElementById('verse-reference');
+const verseBackRef = document.getElementById('verse-back-ref');
 const verseText = document.getElementById('verse-text');
+const quizArea = document.getElementById('quiz-area');
+const quizInput = document.getElementById('quiz-input');
+const quizFeedback = document.getElementById('quiz-feedback');
+const quizVerse = document.getElementById('quiz-verse-display');
+const quizIndicator = document.getElementById('quiz-indicator');
 
 let currentIndex = 0;
 let currentVerse = null;
+let currentMode = 'verses';
+let isQuizMode = false;
+let quizAnswered = false;
 
-// Base de données active (modifiable par les onglets)
-let activeData = [...bibleData]; // par défaut = versets
+// Données actives
+let activeData = [];
 
+// =============================================
+//   STATISTIQUES SESSION
+// =============================================
+let stats = { total: 0, known: 0 };
 
-// ---------------------------
-//      SRS & RANDOM PICK
-// ---------------------------
+function updateStats(isKnown) {
+  stats.total++;
+  if (isKnown) stats.known++;
+
+  document.getElementById('stat-total').textContent = stats.total;
+  document.getElementById('stat-known').textContent = stats.known;
+  const pct = stats.total > 0 ? Math.round((stats.known / stats.total) * 100) : 0;
+  document.getElementById('stat-percent').textContent = pct;
+  document.getElementById('progress-fill').style.width = pct + '%';
+}
+
+// =============================================
+//   PERSISTANCE SRS (localStorage)
+// =============================================
+const SRS_KEY = 'bible-flashcards-srs-v1';
+
+function loadSRSWeights() {
+  try {
+    const saved = localStorage.getItem(SRS_KEY);
+    if (!saved) return;
+    const weights = JSON.parse(saved);
+
+    // Appliquer les poids sauvegardés aux deux datasets
+    [bibleData, promisesData].forEach(dataset => {
+      dataset.forEach(v => {
+        if (weights[v.reference] !== undefined) {
+          v.weight = weights[v.reference];
+        }
+      });
+    });
+  } catch(e) { console.warn('SRS load error:', e); }
+}
+
+function saveSRSWeights() {
+  try {
+    const weights = {};
+    [...bibleData, ...promisesData].forEach(v => {
+      weights[v.reference] = v.weight;
+    });
+    localStorage.setItem(SRS_KEY, JSON.stringify(weights));
+  } catch(e) { console.warn('SRS save error:', e); }
+}
+
+// =============================================
+//   DARK MODE
+// =============================================
+function toggleTheme() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  document.documentElement.setAttribute('data-theme', isDark ? '' : 'dark');
+  document.querySelector('.theme-toggle').textContent = isDark ? '🌙' : '☀️';
+  localStorage.setItem('bible-theme', isDark ? 'light' : 'dark');
+}
+
+function initTheme() {
+  const saved = localStorage.getItem('bible-theme');
+  if (saved === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.querySelector('.theme-toggle').textContent = '☀️';
+  }
+}
+
+// =============================================
+//   SRS — SÉLECTION PONDÉRÉE
+// =============================================
 function getRandomVerseIndex() {
   if (!activeData || activeData.length === 0) return 0;
-
   const totalWeight = activeData.reduce((sum, v) => sum + v.weight, 0);
-  let randomWeight = Math.random() * totalWeight;
-
+  let r = Math.random() * totalWeight;
   for (let i = 0; i < activeData.length; i++) {
-    if (randomWeight < activeData[i].weight) return i;
-    randomWeight -= activeData[i].weight;
+    if (r < activeData[i].weight) return i;
+    r -= activeData[i].weight;
   }
   return 0;
 }
 
+function updateWeight(isKnown) {
+  let v = activeData[currentIndex];
+  if (isKnown) {
+    v.weight = Math.max(0.1, v.weight * 0.5);
+  } else {
+    v.weight = Math.min(5.0, v.weight * 2.0);
+  }
+  saveSRSWeights();
+}
+
+// =============================================
+//   CHARGEMENT D'UN VERSET
+// =============================================
 function loadVerse() {
   if (!activeData || activeData.length === 0) return;
 
   const idx = getRandomVerseIndex();
   currentIndex = idx;
   currentVerse = activeData[idx];
+  quizAnswered = false;
 
-  verseRef.innerText = currentVerse.reference;
+  // Recto
+  verseRef.textContent = currentVerse.reference;
+  verseBackRef.textContent = currentVerse.reference;
 
-  if (currentVerse.application) {
-    verseText.innerHTML = `
-      ${currentVerse.text}
-      <br><br>
-      <span class="application-title">Application :</span>
-      <br>
-      <span class="application-text">${currentVerse.application}</span>
-    `;
+  // Verso
+  if (isQuizMode) {
+    // Afficher le verset, masquer la ref → l'utilisateur doit taper la ref
+    verseText.style.display = 'none';
+    quizArea.classList.add('visible');
+    quizInput.value = '';
+    quizFeedback.textContent = '';
+    quizFeedback.className = 'quiz-feedback';
+
+    let display = currentVerse.text;
+    if (currentVerse.application) {
+      display += `<br><br><span class="application-title">Application :</span><br>
+      <span class="application-text">${currentVerse.application}</span>`;
+    }
+    quizVerse.innerHTML = display;
+
+    // En mode quiz, le recto affiche "?" et demande de trouver la référence
+    verseRef.textContent = '?';
+    verseRef.dataset.quizAnswer = currentVerse.reference;
+
   } else {
-    verseText.innerText = currentVerse.text;
+    // Mode flashcard normal
+    verseText.style.display = '';
+    quizArea.classList.remove('visible');
+
+    if (currentVerse.application) {
+      verseText.innerHTML = `
+        ${currentVerse.text}
+        <br><br>
+        <span class="application-title">Application :</span>
+        <br>
+        <span class="application-text">${currentVerse.application}</span>
+      `;
+    } else {
+      verseText.textContent = currentVerse.text;
+    }
   }
 }
 
-function updateWeight(isKnown) {
-  let v = activeData[currentIndex];
+// =============================================
+//   MODE QUIZ — VÉRIFICATION
+// =============================================
+function checkQuizAnswer() {
+  if (quizAnswered) return;
 
-  if (isKnown) {
-    v.weight = Math.max(0.1, v.weight * 0.5);
+  const answer = quizInput.value.trim();
+  const correct = currentVerse.reference;
+
+  // Normalisation pour comparaison souple
+  const normalize = s => s.toLowerCase()
+    .replace(/[éèêë]/g, 'e').replace(/[àâä]/g, 'a')
+    .replace(/[ùûü]/g, 'u').replace(/[îï]/g, 'i')
+    .replace(/[ôö]/g, 'o').replace(/\s+/g, ' ').trim();
+
+  const isCorrect = normalize(answer) === normalize(correct);
+  quizAnswered = true;
+
+  if (isCorrect) {
+    quizFeedback.textContent = '✅ Excellent !';
+    quizFeedback.className = 'quiz-feedback correct';
+    updateWeight(true);
+    updateStats(true);
+    confetti({ particleCount: 60, spread: 60, origin: { y: 0.6 } });
   } else {
-    v.weight = Math.min(5.0, v.weight * 2);
+    quizFeedback.textContent = `❌ Réponse : ${correct}`;
+    quizFeedback.className = 'quiz-feedback incorrect';
+    updateWeight(false);
+    updateStats(false);
   }
+
+  // Afficher la vraie référence
+  verseRef.textContent = correct;
+
+  // Passer automatiquement après 2 secondes
+  setTimeout(() => {
+    card.classList.remove("is-flipped", "is-known", "is-unknown");
+    loadVerse();
+  }, 2200);
 }
 
+// Valider quiz avec Entrée
+document.getElementById('quiz-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') checkQuizAnswer();
+});
 
-// ---------------------------
-//           FLIP
-// ---------------------------
+// =============================================
+//   FLIP
+// =============================================
 function flipCard() {
-  if (!card.classList.contains("is-flipped")) {
-    card.classList.add("is-flipped");
+  if (card.classList.contains("is-flipped")) return;
 
-    confetti({
-      particleCount: 80,
-      spread: 70,
-      origin: { y: 0.6 }
-    });
+  card.classList.add("is-flipped");
+
+  if (!isQuizMode) {
+    confetti({ particleCount: 60, spread: 60, origin: { y: 0.6 } });
+    // Focus auto sur l'input quiz quand on est en mode quiz
+  }
+
+  if (isQuizMode && quizInput) {
+    setTimeout(() => quizInput.focus(), 100);
   }
 }
 
-
-// ---------------------------
-//        NEXT CARD (VERSION OPTIMISÉE)
-// ---------------------------
+// =============================================
+//   CARTE SUIVANTE
+// =============================================
 function nextCard(e, fromSwipe = false) {
   if (e) e.stopPropagation();
 
-  // Si ce n’est PAS un swipe, on change immédiatement
   if (!fromSwipe) {
     card.classList.remove("is-flipped", "is-known", "is-unknown");
     loadVerse();
     return;
   }
 
-  // Gestion du swipe → transitionend
   const onTransitionEnd = (event) => {
     if (event.propertyName !== "transform") return;
-
-    // On coupe après la bonne transition
     card.removeEventListener("transitionend", onTransitionEnd);
-
-    // Nettoyage
-    card.classList.remove("swipe-right", "swipe-left");
-    card.classList.remove("is-known", "is-unknown");
-    card.classList.remove("is-flipped");
-
-    // Nouvelle carte
+    card.classList.remove("swipe-right", "swipe-left", "is-known", "is-unknown", "is-flipped");
     loadVerse();
   };
-
   card.addEventListener("transitionend", onTransitionEnd);
 }
 
-
-// ---------------------------
-//       SWIPE TOUCH
-// ---------------------------
+// =============================================
+//   SWIPE TOUCH
+// =============================================
 let touchstartX = 0;
-let touchendX = 0;
 const SWIPE_THRESHOLD = 50;
-
-function checkDirectionTouch() {
-  const dist = touchendX - touchstartX;
-  if (Math.abs(dist) < SWIPE_THRESHOLD) return flipCard();
-  handleSwipe(dist);
-}
 
 card.addEventListener("touchstart", e => touchstartX = e.changedTouches[0].screenX);
 card.addEventListener("touchend", e => {
-  touchendX = e.changedTouches[0].screenX;
-  checkDirectionTouch();
-});
-
-
-// ---------------------------
-//       SWIPE MOUSE
-// ---------------------------
-let mouseDownX = 0;
-let mouseUpX = 0;
-
-card.addEventListener("mousedown", e => mouseDownX = e.clientX);
-card.addEventListener("mouseup", e => {
-  mouseUpX = e.clientX;
-  const dist = mouseUpX - mouseDownX;
-
+  const dist = e.changedTouches[0].screenX - touchstartX;
   if (Math.abs(dist) < SWIPE_THRESHOLD) return flipCard();
   handleSwipe(dist);
 });
 
+// =============================================
+//   SWIPE SOURIS
+// =============================================
+let mouseDownX = 0;
+card.addEventListener("mousedown", e => mouseDownX = e.clientX);
+card.addEventListener("mouseup", e => {
+  const dist = e.clientX - mouseDownX;
+  if (Math.abs(dist) < SWIPE_THRESHOLD) return flipCard();
+  handleSwipe(dist);
+});
 
-// ---------------------------
-//        COMMON SWIPE
-// ---------------------------
+// =============================================
+//   GESTION SWIPE COMMUN
+// =============================================
 function handleSwipe(dist) {
   if (!card.classList.contains("is-flipped")) return flipCard();
+  if (isQuizMode && !quizAnswered) return; // Bloquer swipe si quiz pas répondu
 
-  if (dist > 0) {
-    updateWeight(true);
-    card.classList.add("is-known", "swipe-right");
-  } else {
-    updateWeight(false);
-    card.classList.add("is-unknown", "swipe-left");
-  }
-
-  nextCard(null, true); // → mode swipe
+  const isKnown = dist > 0;
+  updateWeight(isKnown);
+  updateStats(isKnown);
+  card.classList.add(isKnown ? "is-known" : "is-unknown");
+  card.classList.add(isKnown ? "swipe-right" : "swipe-left");
+  nextCard(null, true);
 }
 
-
-// ---------------------------
-//     DOUBLE CLICK / RIGHT CLICK
-// ---------------------------
+// =============================================
+//   DOUBLE CLICK / CLIC DROIT
+// =============================================
 card.addEventListener("dblclick", e => {
   e.preventDefault();
   if (card.classList.contains("is-flipped")) {
     updateWeight(true);
+    updateStats(true);
     card.classList.add("is-known");
     nextCard(null, false);
   } else flipCard();
@@ -179,64 +305,66 @@ card.addEventListener("contextmenu", e => {
   e.preventDefault();
   if (card.classList.contains("is-flipped")) {
     updateWeight(false);
+    updateStats(false);
     card.classList.add("is-unknown");
     nextCard(null, false);
   } else flipCard();
 });
 
-
-// ---------------------------
-//           CLAVIER
-// ---------------------------
+// =============================================
+//   CLAVIER
+// =============================================
 document.addEventListener("keydown", e => {
-
   if (e.key === "Enter" || e.key === " ") {
+    if (document.activeElement === quizInput) return;
+    e.preventDefault();
     flipCard();
   }
-
   if (!card.classList.contains("is-flipped")) return;
-
   if (e.key === "ArrowRight") {
-    updateWeight(true);
+    updateWeight(true); updateStats(true);
     card.classList.add("is-known");
     nextCard(null, false);
   }
-
   if (e.key === "ArrowLeft") {
-    updateWeight(false);
+    updateWeight(false); updateStats(false);
     card.classList.add("is-unknown");
     nextCard(null, false);
   }
 });
 
-
-// ---------------------------
-//         ONGLET : CHOIX DU MODE
-// ---------------------------
+// =============================================
+//   ONGLETS / MODES
+// =============================================
 function setMode(mode) {
+  currentMode = mode;
+  isQuizMode = (mode === 'quiz');
+
   document.querySelectorAll(".tab-button").forEach(btn => btn.classList.remove("active"));
+  document.querySelector(`button[onclick="setMode('${mode}')"]`).classList.add("active");
 
-  if (mode === "verses") {
-    activeData = [...bibleData];
-    document.querySelector('button[onclick="setMode(\'verses\')"]').classList.add("active");
-  }
+  quizIndicator.classList.toggle('visible', isQuizMode);
 
-  if (mode === "promises") {
-    activeData = [...promisesData];
-    document.querySelector('button[onclick="setMode(\'promises\')"]').classList.add("active");
-  }
+  const sourceMode = isQuizMode ? 'mix' : mode;
+  if (sourceMode === 'verses') activeData = [...bibleData];
+  else if (sourceMode === 'promises') activeData = [...promisesData];
+  else activeData = [...bibleData, ...promisesData];
 
-  if (mode === "mix") {
-    activeData = [...bibleData, ...promisesData];
-    document.querySelector('button[onclick="setMode(\'mix\')"]').classList.add("active");
-  }
+  // Dédoublonner (Ésaïe 41:10 est dans les deux fichiers)
+  const seen = new Set();
+  activeData = activeData.filter(v => {
+    if (seen.has(v.reference)) return false;
+    seen.add(v.reference);
+    return true;
+  });
 
   card.classList.remove("is-flipped", "is-known", "is-unknown", "swipe-right", "swipe-left");
   loadVerse();
 }
 
-
-// ---------------------------
-//         INIT
-// ---------------------------
-loadVerse();
+// =============================================
+//   INITIALISATION
+// =============================================
+initTheme();
+loadSRSWeights();
+setMode('verses');

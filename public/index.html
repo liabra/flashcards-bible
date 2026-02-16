@@ -35,11 +35,7 @@
       <button class="tab-button active" onclick="setMode('verses')">Versets</button>
       <button class="tab-button" onclick="setMode('promises')">Promesses</button>
       <button class="tab-button" onclick="setMode('mix')">Mix</button>
-      <button class="tab-button" onclick="setMode('quiz')">📝 Quiz</button>
     </div>
-
-    <!-- BADGE MODE QUIZ -->
-    <div class="quiz-mode-indicator" id="quiz-indicator">MODE QUIZ ACTIF</div>
 
     <!-- CARTE -->
     <div class="scene">
@@ -55,18 +51,7 @@
         <!-- VERSO -->
         <div class="card__face card__face--back">
           <div class="verse-back-ref" id="verse-back-ref"></div>
-
-          <!-- Texte normal (mode flashcard) -->
           <p id="verse-text" style="padding: 4px; font-size: 1.05rem; text-align: center;"></p>
-
-          <!-- Zone quiz (mode quiz) -->
-          <div class="quiz-area" id="quiz-area">
-            <div id="quiz-verse-display" style="font-size:1rem; line-height:1.6; text-align:center; color:white; padding: 0 4px;"></div>
-            <input class="quiz-input" id="quiz-input" type="text" placeholder="Tapez la référence du verset…" autocomplete="off" />
-            <div class="quiz-feedback" id="quiz-feedback"></div>
-            <button class="quiz-btn" onclick="checkQuizAnswer()">Vérifier ✓</button>
-          </div>
-
           <p class="swipe-hint">➡️ Je sais &nbsp;|&nbsp; ⬅️ J'hésite</p>
           <button class="next-btn" onclick="nextCard(event)">Verset suivant →</button>
         </div>

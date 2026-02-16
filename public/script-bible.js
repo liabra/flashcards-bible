@@ -5,19 +5,9 @@ const card = document.querySelector('.card');
 const verseRef = document.getElementById('verse-reference');
 const verseBackRef = document.getElementById('verse-back-ref');
 const verseText = document.getElementById('verse-text');
-const quizArea = document.getElementById('quiz-area');
-const quizInput = document.getElementById('quiz-input');
-const quizFeedback = document.getElementById('quiz-feedback');
-const quizVerse = document.getElementById('quiz-verse-display');
-const quizIndicator = document.getElementById('quiz-indicator');
 
 let currentIndex = 0;
 let currentVerse = null;
-let currentMode = 'verses';
-let isQuizMode = false;
-let quizAnswered = false;
-
-// Données actives
 let activeData = [];
 
 // =============================================
@@ -119,113 +109,32 @@ function loadVerse() {
   const idx = getRandomVerseIndex();
   currentIndex = idx;
   currentVerse = activeData[idx];
-  quizAnswered = false;
 
   // Recto
   verseRef.textContent = currentVerse.reference;
   verseBackRef.textContent = currentVerse.reference;
 
   // Verso
-  if (isQuizMode) {
-    // Afficher le verset, masquer la ref → l'utilisateur doit taper la ref
-    verseText.style.display = 'none';
-    quizArea.classList.add('visible');
-    quizInput.value = '';
-    quizFeedback.textContent = '';
-    quizFeedback.className = 'quiz-feedback';
-
-    let display = currentVerse.text;
-    if (currentVerse.application) {
-      display += `<br><br><span class="application-title">Application :</span><br>
-      <span class="application-text">${currentVerse.application}</span>`;
-    }
-    quizVerse.innerHTML = display;
-
-    // En mode quiz, le recto affiche "?" et demande de trouver la référence
-    verseRef.textContent = '?';
-    verseRef.dataset.quizAnswer = currentVerse.reference;
-
+  if (currentVerse.application) {
+    verseText.innerHTML = `
+      ${currentVerse.text}
+      <br><br>
+      <span class="application-title">Application :</span>
+      <br>
+      <span class="application-text">${currentVerse.application}</span>
+    `;
   } else {
-    // Mode flashcard normal
-    verseText.style.display = '';
-    quizArea.classList.remove('visible');
-
-    if (currentVerse.application) {
-      verseText.innerHTML = `
-        ${currentVerse.text}
-        <br><br>
-        <span class="application-title">Application :</span>
-        <br>
-        <span class="application-text">${currentVerse.application}</span>
-      `;
-    } else {
-      verseText.textContent = currentVerse.text;
-    }
+    verseText.textContent = currentVerse.text;
   }
 }
-
-// =============================================
-//   MODE QUIZ — VÉRIFICATION
-// =============================================
-function checkQuizAnswer() {
-  if (quizAnswered) return;
-
-  const answer = quizInput.value.trim();
-  const correct = currentVerse.reference;
-
-  // Normalisation pour comparaison souple
-  const normalize = s => s.toLowerCase()
-    .replace(/[éèêë]/g, 'e').replace(/[àâä]/g, 'a')
-    .replace(/[ùûü]/g, 'u').replace(/[îï]/g, 'i')
-    .replace(/[ôö]/g, 'o').replace(/\s+/g, ' ').trim();
-
-  const isCorrect = normalize(answer) === normalize(correct);
-  quizAnswered = true;
-
-  if (isCorrect) {
-    quizFeedback.textContent = '✅ Excellent !';
-    quizFeedback.className = 'quiz-feedback correct';
-    updateWeight(true);
-    updateStats(true);
-    confetti({ particleCount: 60, spread: 60, origin: { y: 0.6 } });
-  } else {
-    quizFeedback.textContent = `❌ Réponse : ${correct}`;
-    quizFeedback.className = 'quiz-feedback incorrect';
-    updateWeight(false);
-    updateStats(false);
-  }
-
-  // Afficher la vraie référence
-  verseRef.textContent = correct;
-
-  // Passer automatiquement après 2 secondes
-  setTimeout(() => {
-    card.classList.remove("is-flipped", "is-known", "is-unknown");
-    loadVerse();
-  }, 2200);
-}
-
-// Valider quiz avec Entrée
-document.getElementById('quiz-input').addEventListener('keydown', e => {
-  if (e.key === 'Enter') checkQuizAnswer();
-});
 
 // =============================================
 //   FLIP
 // =============================================
 function flipCard() {
   if (card.classList.contains("is-flipped")) return;
-
   card.classList.add("is-flipped");
-
-  if (!isQuizMode) {
-    confetti({ particleCount: 60, spread: 60, origin: { y: 0.6 } });
-    // Focus auto sur l'input quiz quand on est en mode quiz
-  }
-
-  if (isQuizMode && quizInput) {
-    setTimeout(() => quizInput.focus(), 100);
-  }
+  confetti({ particleCount: 60, spread: 60, origin: { y: 0.6 } });
 }
 
 // =============================================
@@ -278,7 +187,6 @@ card.addEventListener("mouseup", e => {
 // =============================================
 function handleSwipe(dist) {
   if (!card.classList.contains("is-flipped")) return flipCard();
-  if (isQuizMode && !quizAnswered) return; // Bloquer swipe si quiz pas répondu
 
   const isKnown = dist > 0;
   updateWeight(isKnown);
@@ -316,7 +224,6 @@ card.addEventListener("contextmenu", e => {
 // =============================================
 document.addEventListener("keydown", e => {
   if (e.key === "Enter" || e.key === " ") {
-    if (document.activeElement === quizInput) return;
     e.preventDefault();
     flipCard();
   }
@@ -337,17 +244,11 @@ document.addEventListener("keydown", e => {
 //   ONGLETS / MODES
 // =============================================
 function setMode(mode) {
-  currentMode = mode;
-  isQuizMode = (mode === 'quiz');
-
   document.querySelectorAll(".tab-button").forEach(btn => btn.classList.remove("active"));
   document.querySelector(`button[onclick="setMode('${mode}')"]`).classList.add("active");
 
-  quizIndicator.classList.toggle('visible', isQuizMode);
-
-  const sourceMode = isQuizMode ? 'mix' : mode;
-  if (sourceMode === 'verses') activeData = [...bibleData];
-  else if (sourceMode === 'promises') activeData = [...promisesData];
+  if (mode === 'verses') activeData = [...bibleData];
+  else if (mode === 'promises') activeData = [...promisesData];
   else activeData = [...bibleData, ...promisesData];
 
   // Dédoublonner (Ésaïe 41:10 est dans les deux fichiers)

@@ -37,7 +37,6 @@ function loadSRSWeights() {
     if (!saved) return;
     const weights = JSON.parse(saved);
 
-    // Appliquer les poids sauvegardés aux deux datasets
     [bibleData, promisesData].forEach(dataset => {
       dataset.forEach(v => {
         if (weights[v.reference] !== undefined) {
@@ -112,9 +111,11 @@ function loadVerse() {
 
   // Recto
   verseRef.textContent = currentVerse.reference;
+  
+  // Verso - référence en haut
   verseBackRef.textContent = currentVerse.reference;
 
-  // Verso
+  // Verso - texte du verset
   if (currentVerse.application) {
     verseText.innerHTML = `
       ${currentVerse.text}
@@ -124,7 +125,7 @@ function loadVerse() {
       <span class="application-text">${currentVerse.application}</span>
     `;
   } else {
-    verseText.textContent = currentVerse.text;
+    verseText.innerHTML = currentVerse.text;
   }
 }
 
@@ -229,12 +230,14 @@ document.addEventListener("keydown", e => {
   }
   if (!card.classList.contains("is-flipped")) return;
   if (e.key === "ArrowRight") {
-    updateWeight(true); updateStats(true);
+    updateWeight(true);
+    updateStats(true);
     card.classList.add("is-known");
     nextCard(null, false);
   }
   if (e.key === "ArrowLeft") {
-    updateWeight(false); updateStats(false);
+    updateWeight(false);
+    updateStats(false);
     card.classList.add("is-unknown");
     nextCard(null, false);
   }
@@ -247,9 +250,13 @@ function setMode(mode) {
   document.querySelectorAll(".tab-button").forEach(btn => btn.classList.remove("active"));
   document.querySelector(`button[onclick="setMode('${mode}')"]`).classList.add("active");
 
-  if (mode === 'verses') activeData = [...bibleData];
-  else if (mode === 'promises') activeData = [...promisesData];
-  else activeData = [...bibleData, ...promisesData];
+  if (mode === 'verses') {
+    activeData = [...bibleData];
+  } else if (mode === 'promises') {
+    activeData = [...promisesData];
+  } else {
+    activeData = [...bibleData, ...promisesData];
+  }
 
   // Dédoublonner (Ésaïe 41:10 est dans les deux fichiers)
   const seen = new Set();

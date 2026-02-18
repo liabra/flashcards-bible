@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "fast-xml-parser": "^5.3.6",
+    "slugify": "^1.6.6"
+  }
+}

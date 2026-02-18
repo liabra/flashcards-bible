@@ -18,44 +18,54 @@
       <button class="theme-toggle" onclick="toggleTheme()" title="Mode sombre/clair">🌙</button>
     </div>
 
-    <!-- STATISTIQUES -->
+    <!-- SÉLECTEURS -->
+    <div class="selectors-wrapper">
+      <input id="day-input" type="number" min="1" max="365" placeholder="Jour (1-365)" />
+      <select id="book-select" style="display:none;"></select>
+      <select id="category-select" style="display:none;"></select>
+    </div>
+
+    <!-- INFO MODE -->
+    <div class="mode-info" id="mode-info">
+      📅 Versets du plan de lecture quotidien (365 jours)
+    </div>
+
+    <!-- STATS -->
     <div class="stats-bar">
       <div class="stat-badge">🃏 <span class="stat-val" id="stat-total">0</span> vus</div>
       <div class="stat-badge">✅ <span class="stat-val" id="stat-known">0</span> sus</div>
       <div class="stat-badge">🎯 <span class="stat-val" id="stat-percent">0</span>%</div>
+      <button class="reset-stats-btn" onclick="resetStats()" title="Réinitialiser les statistiques">🔄</button>
     </div>
 
-    <!-- BARRE DE PROGRESSION -->
+    <!-- PROGRESSION -->
     <div class="progress-bar-wrap">
       <div class="progress-bar-fill" id="progress-fill" style="width: 0%"></div>
     </div>
 
-    <!-- ONGLETS MODE -->
+    <!-- ONGLETS -->
     <div class="tabs">
-      <button class="tab-button active" onclick="setMode('verses')">Versets</button>
-      <button class="tab-button" onclick="setMode('promises')">Promesses</button>
-      <button class="tab-button" onclick="setMode('mix')">Mix</button>
+      <button class="tab-button active" onclick="setMode('plan')">📅 Plan</button>
+      <button class="tab-button" onclick="setMode('livre')">📖 Livre</button>
+      <button class="tab-button" onclick="setMode('promises')">🎁 Promesses</button>
+      <button class="tab-button" onclick="setMode('mix')">🔀 Mix</button>
     </div>
 
     <!-- CARTE -->
     <div class="scene">
       <div class="card">
-
-        <!-- RECTO -->
         <div class="card__face card__face--front">
           <div class="card-label">Référence</div>
           <h2 id="verse-reference">?</h2>
           <p class="hint">👆 Touche pour retourner</p>
         </div>
-
-        <!-- VERSO -->
         <div class="card__face card__face--back">
           <div class="verse-back-ref" id="verse-back-ref"></div>
-          <p id="verse-text" style="padding: 4px; font-size: 1.05rem; text-align: center;"></p>
-          <p class="swipe-hint">➡️ Je sais &nbsp;|&nbsp; ⬅️ J'hésite</p>
+          <div class="category-badge" id="category-badge" style="display:none;">Catégorie</div>
+          <p id="verse-text"></p>
+          <p class="swipe-hint">➡️ Je sais | ⬅️ J'hésite</p>
           <button class="next-btn" onclick="nextCard(event)">Verset suivant →</button>
         </div>
-
       </div>
     </div>
 
@@ -64,21 +74,11 @@
       <p>👆 Touche la carte pour voir le verset.</p>
       <p>👉 <strong>Glisse à droite</strong> : Tu maîtrises</p>
       <p>👈 <strong>Glisse à gauche</strong> : Tu hésites</p>
-      <p>⌨️ Flèches ← → aussi disponibles</p>
     </div>
 
   </div>
 
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-          .then(reg => console.log("SW enregistré"))
-          .catch(err => console.log("SW échec", err));
-      });
-    }
-  </script>
-
+  <!-- Scripts dans le bon ordre -->
   <script src="bibleData.js"></script>
   <script src="promisesData.js"></script>
   <script src="script-bible.js"></script>

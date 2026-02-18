@@ -1,0 +1,5936 @@
+[
+  {
+    "day": 1,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          31,
+          32,
+          33
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          34,
+          35,
+          36
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          37,
+          38,
+          39
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          40,
+          41,
+          42
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          43,
+          44,
+          45
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          46,
+          47,
+          48
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "readings": [
+      {
+        "book": "GEN",
+        "chapters": [
+          49,
+          50
+        ]
+      },
+      {
+        "book": "EXO",
+        "chapters": [
+          1
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "day": 18,
+    "readings": [
+      {
+        "book": "EXO",
+        "chapters": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "day": 19,
+    "readings": [
+      {
+        "book": "EXO",
+        "chapters": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          19
+        ]
+      }
+    ]
+  },
+  {
+    "day": 20,
+    "readings": [
+      {
+        "book": "EXO",
+        "chapters": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "day": 21,
+    "readings": [
+      {
+        "book": "EXO",
+        "chapters": [
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "day": 22,
+    "readings": [
+      {
+        "book": "EXO",
+        "chapters": [
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          22
+        ]
+      }
+    ]
+  },
+  {
+    "day": 23,
+    "readings": [
+      {
+        "book": "EXO",
+        "chapters": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          23
+        ]
+      }
+    ]
+  },
+  {
+    "day": 24,
+    "readings": [
+      {
+        "book": "EXO",
+        "chapters": [
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          24
+        ]
+      }
+    ]
+  },
+  {
+    "day": 25,
+    "readings": [
+      {
+        "book": "EXO",
+        "chapters": [
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          25
+        ]
+      }
+    ]
+  },
+  {
+    "day": 26,
+    "readings": [
+      {
+        "book": "EXO",
+        "chapters": [
+          26,
+          27,
+          28
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          26
+        ]
+      }
+    ]
+  },
+  {
+    "day": 27,
+    "readings": [
+      {
+        "book": "EXO",
+        "chapters": [
+          29,
+          30,
+          31
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "day": 28,
+    "readings": [
+      {
+        "book": "EXO",
+        "chapters": [
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "book": "MAT",
+        "chapters": [
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "day": 29,
+    "readings": [
+      {
+        "book": "EXO",
+        "chapters": [
+          35,
+          36,
+          37
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 30,
+    "readings": [
+      {
+        "book": "EXO",
+        "chapters": [
+          38,
+          39,
+          40
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 31,
+    "readings": [
+      {
+        "book": "LEV",
+        "chapters": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 32,
+    "readings": [
+      {
+        "book": "LEV",
+        "chapters": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 33,
+    "readings": [
+      {
+        "book": "LEV",
+        "chapters": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 34,
+    "readings": [
+      {
+        "book": "LEV",
+        "chapters": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "day": 35,
+    "readings": [
+      {
+        "book": "LEV",
+        "chapters": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "day": 36,
+    "readings": [
+      {
+        "book": "LEV",
+        "chapters": [
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "day": 37,
+    "readings": [
+      {
+        "book": "LEV",
+        "chapters": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "day": 38,
+    "readings": [
+      {
+        "book": "LEV",
+        "chapters": [
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "day": 39,
+    "readings": [
+      {
+        "book": "LEV",
+        "chapters": [
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "day": 40,
+    "readings": [
+      {
+        "book": "NUM",
+        "chapters": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "day": 41,
+    "readings": [
+      {
+        "book": "NUM",
+        "chapters": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "day": 42,
+    "readings": [
+      {
+        "book": "NUM",
+        "chapters": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "day": 43,
+    "readings": [
+      {
+        "book": "NUM",
+        "chapters": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "day": 44,
+    "readings": [
+      {
+        "book": "NUM",
+        "chapters": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "book": "MRK",
+        "chapters": [
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "day": 45,
+    "readings": [
+      {
+        "book": "NUM",
+        "chapters": [
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 46,
+    "readings": [
+      {
+        "book": "NUM",
+        "chapters": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 47,
+    "readings": [
+      {
+        "book": "NUM",
+        "chapters": [
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 48,
+    "readings": [
+      {
+        "book": "NUM",
+        "chapters": [
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 49,
+    "readings": [
+      {
+        "book": "NUM",
+        "chapters": [
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 50,
+    "readings": [
+      {
+        "book": "NUM",
+        "chapters": [
+          31,
+          32,
+          33
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "day": 51,
+    "readings": [
+      {
+        "book": "NUM",
+        "chapters": [
+          34,
+          35,
+          36
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "day": 52,
+    "readings": [
+      {
+        "book": "DEU",
+        "chapters": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "day": 53,
+    "readings": [
+      {
+        "book": "DEU",
+        "chapters": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "day": 54,
+    "readings": [
+      {
+        "book": "DEU",
+        "chapters": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "day": 55,
+    "readings": [
+      {
+        "book": "DEU",
+        "chapters": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "day": 56,
+    "readings": [
+      {
+        "book": "DEU",
+        "chapters": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "day": 57,
+    "readings": [
+      {
+        "book": "DEU",
+        "chapters": [
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "day": 58,
+    "readings": [
+      {
+        "book": "DEU",
+        "chapters": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "day": 59,
+    "readings": [
+      {
+        "book": "DEU",
+        "chapters": [
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "day": 60,
+    "readings": [
+      {
+        "book": "DEU",
+        "chapters": [
+          25,
+          26,
+          27
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "day": 61,
+    "readings": [
+      {
+        "book": "DEU",
+        "chapters": [
+          28,
+          29,
+          30
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "day": 62,
+    "readings": [
+      {
+        "book": "DEU",
+        "chapters": [
+          31,
+          32,
+          33
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "day": 63,
+    "readings": [
+      {
+        "book": "DEU",
+        "chapters": [
+          34
+        ]
+      },
+      {
+        "book": "JOS",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          19
+        ]
+      }
+    ]
+  },
+  {
+    "day": 64,
+    "readings": [
+      {
+        "book": "JOS",
+        "chapters": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "day": 65,
+    "readings": [
+      {
+        "book": "JOS",
+        "chapters": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "day": 66,
+    "readings": [
+      {
+        "book": "JOS",
+        "chapters": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          22
+        ]
+      }
+    ]
+  },
+  {
+    "day": 67,
+    "readings": [
+      {
+        "book": "JOS",
+        "chapters": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          23
+        ]
+      }
+    ]
+  },
+  {
+    "day": 68,
+    "readings": [
+      {
+        "book": "JOS",
+        "chapters": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "book": "LUK",
+        "chapters": [
+          24
+        ]
+      }
+    ]
+  },
+  {
+    "day": 69,
+    "readings": [
+      {
+        "book": "JOS",
+        "chapters": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 70,
+    "readings": [
+      {
+        "book": "JOS",
+        "chapters": [
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 71,
+    "readings": [
+      {
+        "book": "JOS",
+        "chapters": [
+          24
+        ]
+      },
+      {
+        "book": "JDG",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 72,
+    "readings": [
+      {
+        "book": "JDG",
+        "chapters": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 73,
+    "readings": [
+      {
+        "book": "JDG",
+        "chapters": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 74,
+    "readings": [
+      {
+        "book": "JDG",
+        "chapters": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "day": 75,
+    "readings": [
+      {
+        "book": "JDG",
+        "chapters": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "day": 76,
+    "readings": [
+      {
+        "book": "JDG",
+        "chapters": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "day": 77,
+    "readings": [
+      {
+        "book": "JDG",
+        "chapters": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "day": 78,
+    "readings": [
+      {
+        "book": "JDG",
+        "chapters": [
+          21
+        ]
+      },
+      {
+        "book": "RUT",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "day": 79,
+    "readings": [
+      {
+        "book": "RUT",
+        "chapters": [
+          3,
+          4
+        ]
+      },
+      {
+        "book": "1SA",
+        "chapters": [
+          1
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "day": 80,
+    "readings": [
+      {
+        "book": "1SA",
+        "chapters": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "day": 81,
+    "readings": [
+      {
+        "book": "1SA",
+        "chapters": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "day": 82,
+    "readings": [
+      {
+        "book": "1SA",
+        "chapters": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "day": 83,
+    "readings": [
+      {
+        "book": "1SA",
+        "chapters": [
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "day": 84,
+    "readings": [
+      {
+        "book": "1SA",
+        "chapters": [
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "day": 85,
+    "readings": [
+      {
+        "book": "1SA",
+        "chapters": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "day": 86,
+    "readings": [
+      {
+        "book": "1SA",
+        "chapters": [
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "day": 87,
+    "readings": [
+      {
+        "book": "1SA",
+        "chapters": [
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          19
+        ]
+      }
+    ]
+  },
+  {
+    "day": 88,
+    "readings": [
+      {
+        "book": "1SA",
+        "chapters": [
+          26,
+          27,
+          28
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "day": 89,
+    "readings": [
+      {
+        "book": "1SA",
+        "chapters": [
+          29,
+          30,
+          31
+        ]
+      },
+      {
+        "book": "JHN",
+        "chapters": [
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "day": 90,
+    "readings": [
+      {
+        "book": "2SA",
+        "chapters": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 91,
+    "readings": [
+      {
+        "book": "2SA",
+        "chapters": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 92,
+    "readings": [
+      {
+        "book": "2SA",
+        "chapters": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 93,
+    "readings": [
+      {
+        "book": "2SA",
+        "chapters": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 94,
+    "readings": [
+      {
+        "book": "2SA",
+        "chapters": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 95,
+    "readings": [
+      {
+        "book": "2SA",
+        "chapters": [
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "day": 96,
+    "readings": [
+      {
+        "book": "2SA",
+        "chapters": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "day": 97,
+    "readings": [
+      {
+        "book": "2SA",
+        "chapters": [
+          22,
+          23,
+          24
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "day": 98,
+    "readings": [
+      {
+        "book": "1KI",
+        "chapters": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "day": 99,
+    "readings": [
+      {
+        "book": "1KI",
+        "chapters": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "day": 100,
+    "readings": [
+      {
+        "book": "1KI",
+        "chapters": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "day": 101,
+    "readings": [
+      {
+        "book": "1KI",
+        "chapters": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "day": 102,
+    "readings": [
+      {
+        "book": "1KI",
+        "chapters": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "day": 103,
+    "readings": [
+      {
+        "book": "1KI",
+        "chapters": [
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "day": 104,
+    "readings": [
+      {
+        "book": "1KI",
+        "chapters": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "day": 105,
+    "readings": [
+      {
+        "book": "1KI",
+        "chapters": [
+          22
+        ]
+      },
+      {
+        "book": "2KI",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "day": 106,
+    "readings": [
+      {
+        "book": "2KI",
+        "chapters": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "day": 107,
+    "readings": [
+      {
+        "book": "2KI",
+        "chapters": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "day": 108,
+    "readings": [
+      {
+        "book": "2KI",
+        "chapters": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          19
+        ]
+      }
+    ]
+  },
+  {
+    "day": 109,
+    "readings": [
+      {
+        "book": "2KI",
+        "chapters": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "day": 110,
+    "readings": [
+      {
+        "book": "2KI",
+        "chapters": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "day": 111,
+    "readings": [
+      {
+        "book": "2KI",
+        "chapters": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          22
+        ]
+      }
+    ]
+  },
+  {
+    "day": 112,
+    "readings": [
+      {
+        "book": "2KI",
+        "chapters": [
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          23
+        ]
+      }
+    ]
+  },
+  {
+    "day": 113,
+    "readings": [
+      {
+        "book": "2KI",
+        "chapters": [
+          24,
+          25
+        ]
+      },
+      {
+        "book": "1CH",
+        "chapters": [
+          1
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          24
+        ]
+      }
+    ]
+  },
+  {
+    "day": 114,
+    "readings": [
+      {
+        "book": "1CH",
+        "chapters": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          25
+        ]
+      }
+    ]
+  },
+  {
+    "day": 115,
+    "readings": [
+      {
+        "book": "1CH",
+        "chapters": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          26
+        ]
+      }
+    ]
+  },
+  {
+    "day": 116,
+    "readings": [
+      {
+        "book": "1CH",
+        "chapters": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "day": 117,
+    "readings": [
+      {
+        "book": "1CH",
+        "chapters": [
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "book": "ACT",
+        "chapters": [
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "day": 118,
+    "readings": [
+      {
+        "book": "1CH",
+        "chapters": [
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 119,
+    "readings": [
+      {
+        "book": "1CH",
+        "chapters": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 120,
+    "readings": [
+      {
+        "book": "1CH",
+        "chapters": [
+          20,
+          21,
+          22
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 121,
+    "readings": [
+      {
+        "book": "1CH",
+        "chapters": [
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 122,
+    "readings": [
+      {
+        "book": "1CH",
+        "chapters": [
+          26,
+          27,
+          28
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 123,
+    "readings": [
+      {
+        "book": "1CH",
+        "chapters": [
+          29
+        ]
+      },
+      {
+        "book": "2CH",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "day": 124,
+    "readings": [
+      {
+        "book": "2CH",
+        "chapters": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "day": 125,
+    "readings": [
+      {
+        "book": "2CH",
+        "chapters": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "day": 126,
+    "readings": [
+      {
+        "book": "2CH",
+        "chapters": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "day": 127,
+    "readings": [
+      {
+        "book": "2CH",
+        "chapters": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "day": 128,
+    "readings": [
+      {
+        "book": "2CH",
+        "chapters": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "day": 129,
+    "readings": [
+      {
+        "book": "2CH",
+        "chapters": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "day": 130,
+    "readings": [
+      {
+        "book": "2CH",
+        "chapters": [
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "day": 131,
+    "readings": [
+      {
+        "book": "2CH",
+        "chapters": [
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "day": 132,
+    "readings": [
+      {
+        "book": "2CH",
+        "chapters": [
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "day": 133,
+    "readings": [
+      {
+        "book": "2CH",
+        "chapters": [
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "book": "ROM",
+        "chapters": [
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "day": 134,
+    "readings": [
+      {
+        "book": "2CH",
+        "chapters": [
+          33,
+          34,
+          35
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 135,
+    "readings": [
+      {
+        "book": "2CH",
+        "chapters": [
+          36
+        ]
+      },
+      {
+        "book": "EZR",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 136,
+    "readings": [
+      {
+        "book": "EZR",
+        "chapters": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 137,
+    "readings": [
+      {
+        "book": "EZR",
+        "chapters": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 138,
+    "readings": [
+      {
+        "book": "EZR",
+        "chapters": [
+          9,
+          10
+        ]
+      },
+      {
+        "book": "NEH",
+        "chapters": [
+          1
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 139,
+    "readings": [
+      {
+        "book": "NEH",
+        "chapters": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "day": 140,
+    "readings": [
+      {
+        "book": "NEH",
+        "chapters": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "day": 141,
+    "readings": [
+      {
+        "book": "NEH",
+        "chapters": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "day": 142,
+    "readings": [
+      {
+        "book": "NEH",
+        "chapters": [
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "day": 143,
+    "readings": [
+      {
+        "book": "EST",
+        "chapters": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "day": 144,
+    "readings": [
+      {
+        "book": "EST",
+        "chapters": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "day": 145,
+    "readings": [
+      {
+        "book": "EST",
+        "chapters": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "day": 146,
+    "readings": [
+      {
+        "book": "EST",
+        "chapters": [
+          10
+        ]
+      },
+      {
+        "book": "JOB",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "day": 147,
+    "readings": [
+      {
+        "book": "JOB",
+        "chapters": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "day": 148,
+    "readings": [
+      {
+        "book": "JOB",
+        "chapters": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "day": 149,
+    "readings": [
+      {
+        "book": "JOB",
+        "chapters": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "book": "1CO",
+        "chapters": [
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "day": 150,
+    "readings": [
+      {
+        "book": "JOB",
+        "chapters": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "book": "2CO",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 151,
+    "readings": [
+      {
+        "book": "JOB",
+        "chapters": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "book": "2CO",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 152,
+    "readings": [
+      {
+        "book": "JOB",
+        "chapters": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "book": "2CO",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 153,
+    "readings": [
+      {
+        "book": "JOB",
+        "chapters": [
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "book": "2CO",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 154,
+    "readings": [
+      {
+        "book": "JOB",
+        "chapters": [
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "book": "2CO",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 155,
+    "readings": [
+      {
+        "book": "JOB",
+        "chapters": [
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "book": "2CO",
+        "chapters": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "day": 156,
+    "readings": [
+      {
+        "book": "JOB",
+        "chapters": [
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "book": "2CO",
+        "chapters": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "day": 157,
+    "readings": [
+      {
+        "book": "JOB",
+        "chapters": [
+          33,
+          34,
+          35
+        ]
+      },
+      {
+        "book": "2CO",
+        "chapters": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "day": 158,
+    "readings": [
+      {
+        "book": "JOB",
+        "chapters": [
+          36,
+          37,
+          38
+        ]
+      },
+      {
+        "book": "2CO",
+        "chapters": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "day": 159,
+    "readings": [
+      {
+        "book": "JOB",
+        "chapters": [
+          39,
+          40,
+          41
+        ]
+      },
+      {
+        "book": "2CO",
+        "chapters": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "day": 160,
+    "readings": [
+      {
+        "book": "JOB",
+        "chapters": [
+          42
+        ]
+      },
+      {
+        "book": "PSA",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "book": "2CO",
+        "chapters": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "day": 161,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "book": "2CO",
+        "chapters": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "day": 162,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "book": "2CO",
+        "chapters": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "day": 163,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "book": "GAL",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 164,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "book": "GAL",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 165,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "book": "GAL",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 166,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "book": "GAL",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 167,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "book": "GAL",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 168,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "book": "GAL",
+        "chapters": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "day": 169,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "book": "EPH",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 170,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "book": "EPH",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 171,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          33,
+          34,
+          35
+        ]
+      },
+      {
+        "book": "EPH",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 172,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          36,
+          37,
+          38
+        ]
+      },
+      {
+        "book": "EPH",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 173,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          39,
+          40,
+          41
+        ]
+      },
+      {
+        "book": "EPH",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 174,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          42,
+          43,
+          44
+        ]
+      },
+      {
+        "book": "EPH",
+        "chapters": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "day": 175,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "book": "PHP",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 176,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          48,
+          49,
+          50
+        ]
+      },
+      {
+        "book": "PHP",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 177,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          51,
+          52,
+          53
+        ]
+      },
+      {
+        "book": "PHP",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 178,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          54,
+          55,
+          56
+        ]
+      },
+      {
+        "book": "PHP",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 179,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          57,
+          58,
+          59
+        ]
+      },
+      {
+        "book": "COL",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 180,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          60,
+          61,
+          62
+        ]
+      },
+      {
+        "book": "COL",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 181,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          63,
+          64,
+          65
+        ]
+      },
+      {
+        "book": "COL",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 182,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          66,
+          67,
+          68
+        ]
+      },
+      {
+        "book": "COL",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 183,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          69,
+          70,
+          71
+        ]
+      },
+      {
+        "book": "1TH",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 184,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          72,
+          73,
+          74
+        ]
+      },
+      {
+        "book": "1TH",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 185,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          75,
+          76,
+          77
+        ]
+      },
+      {
+        "book": "1TH",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 186,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          78,
+          79,
+          80
+        ]
+      },
+      {
+        "book": "1TH",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 187,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          81,
+          82,
+          83
+        ]
+      },
+      {
+        "book": "1TH",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 188,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          84,
+          85,
+          86
+        ]
+      },
+      {
+        "book": "2TH",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 189,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          87,
+          88,
+          89
+        ]
+      },
+      {
+        "book": "2TH",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 190,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          90,
+          91,
+          92
+        ]
+      },
+      {
+        "book": "2TH",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 191,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          93,
+          94,
+          95
+        ]
+      },
+      {
+        "book": "1TI",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 192,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          96,
+          97,
+          98
+        ]
+      },
+      {
+        "book": "1TI",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 193,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          99,
+          100,
+          101
+        ]
+      },
+      {
+        "book": "1TI",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 194,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          102,
+          103,
+          104
+        ]
+      },
+      {
+        "book": "1TI",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 195,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          105,
+          106,
+          107
+        ]
+      },
+      {
+        "book": "1TI",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 196,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          108,
+          109,
+          110
+        ]
+      },
+      {
+        "book": "1TI",
+        "chapters": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "day": 197,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          111,
+          112,
+          113
+        ]
+      },
+      {
+        "book": "2TI",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 198,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          114,
+          115,
+          116
+        ]
+      },
+      {
+        "book": "2TI",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 199,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          117,
+          118,
+          119
+        ]
+      },
+      {
+        "book": "2TI",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 200,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          120,
+          121,
+          122
+        ]
+      },
+      {
+        "book": "2TI",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 201,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          123,
+          124,
+          125
+        ]
+      },
+      {
+        "book": "TIT",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 202,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          126,
+          127,
+          128
+        ]
+      },
+      {
+        "book": "TIT",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 203,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          129,
+          130,
+          131
+        ]
+      },
+      {
+        "book": "TIT",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 204,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          132,
+          133,
+          134
+        ]
+      },
+      {
+        "book": "PHM",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 205,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          135,
+          136,
+          137
+        ]
+      },
+      {
+        "book": "HEB",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 206,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          138,
+          139,
+          140
+        ]
+      },
+      {
+        "book": "HEB",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 207,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          141,
+          142,
+          143
+        ]
+      },
+      {
+        "book": "HEB",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 208,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "book": "HEB",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 209,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          147,
+          148,
+          149
+        ]
+      },
+      {
+        "book": "HEB",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 210,
+    "readings": [
+      {
+        "book": "PSA",
+        "chapters": [
+          150
+        ]
+      },
+      {
+        "book": "PRO",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "book": "HEB",
+        "chapters": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "day": 211,
+    "readings": [
+      {
+        "book": "PRO",
+        "chapters": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "book": "HEB",
+        "chapters": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "day": 212,
+    "readings": [
+      {
+        "book": "PRO",
+        "chapters": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "book": "HEB",
+        "chapters": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "day": 213,
+    "readings": [
+      {
+        "book": "PRO",
+        "chapters": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "book": "HEB",
+        "chapters": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "day": 214,
+    "readings": [
+      {
+        "book": "PRO",
+        "chapters": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "book": "HEB",
+        "chapters": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "day": 215,
+    "readings": [
+      {
+        "book": "PRO",
+        "chapters": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "book": "HEB",
+        "chapters": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "day": 216,
+    "readings": [
+      {
+        "book": "PRO",
+        "chapters": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "book": "HEB",
+        "chapters": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "day": 217,
+    "readings": [
+      {
+        "book": "PRO",
+        "chapters": [
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "book": "HEB",
+        "chapters": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "day": 218,
+    "readings": [
+      {
+        "book": "PRO",
+        "chapters": [
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "book": "JAS",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 219,
+    "readings": [
+      {
+        "book": "PRO",
+        "chapters": [
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "book": "JAS",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 220,
+    "readings": [
+      {
+        "book": "PRO",
+        "chapters": [
+          30,
+          31
+        ]
+      },
+      {
+        "book": "ECC",
+        "chapters": [
+          1
+        ]
+      },
+      {
+        "book": "JAS",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 221,
+    "readings": [
+      {
+        "book": "ECC",
+        "chapters": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "book": "JAS",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 222,
+    "readings": [
+      {
+        "book": "ECC",
+        "chapters": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "book": "JAS",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 223,
+    "readings": [
+      {
+        "book": "ECC",
+        "chapters": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "book": "1PE",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 224,
+    "readings": [
+      {
+        "book": "ECC",
+        "chapters": [
+          11,
+          12
+        ]
+      },
+      {
+        "book": "SNG",
+        "chapters": [
+          1
+        ]
+      },
+      {
+        "book": "1PE",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 225,
+    "readings": [
+      {
+        "book": "SNG",
+        "chapters": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "book": "1PE",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 226,
+    "readings": [
+      {
+        "book": "SNG",
+        "chapters": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "book": "1PE",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 227,
+    "readings": [
+      {
+        "book": "SNG",
+        "chapters": [
+          8
+        ]
+      },
+      {
+        "book": "ISA",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "book": "1PE",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 228,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "book": "2PE",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 229,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "book": "2PE",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 230,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "book": "2PE",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 231,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "book": "1JN",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 232,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "book": "1JN",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 233,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "book": "1JN",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 234,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "book": "1JN",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 235,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "book": "1JN",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 236,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "book": "2JN",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 237,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "book": "3JN",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 238,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          33,
+          34,
+          35
+        ]
+      },
+      {
+        "book": "JUD",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 239,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          36,
+          37,
+          38
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 240,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          39,
+          40,
+          41
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 241,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          42,
+          43,
+          44
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 242,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 243,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          48,
+          49,
+          50
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 244,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          51,
+          52,
+          53
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "day": 245,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          54,
+          55,
+          56
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "day": 246,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          57,
+          58,
+          59
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "day": 247,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          60,
+          61,
+          62
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "day": 248,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          63,
+          64,
+          65
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "day": 249,
+    "readings": [
+      {
+        "book": "ISA",
+        "chapters": [
+          66
+        ]
+      },
+      {
+        "book": "JER",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "day": 250,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "day": 251,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "day": 252,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "day": 253,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "day": 254,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "day": 255,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "day": 256,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "day": 257,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          19
+        ]
+      }
+    ]
+  },
+  {
+    "day": 258,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "day": 259,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "day": 260,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          33,
+          34,
+          35
+        ]
+      },
+      {
+        "book": "REV",
+        "chapters": [
+          22
+        ]
+      }
+    ]
+  },
+  {
+    "day": 261,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          36,
+          37,
+          38
+        ]
+      }
+    ]
+  },
+  {
+    "day": 262,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          39,
+          40,
+          41
+        ]
+      }
+    ]
+  },
+  {
+    "day": 263,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          42,
+          43,
+          44
+        ]
+      }
+    ]
+  },
+  {
+    "day": 264,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          45,
+          46,
+          47
+        ]
+      }
+    ]
+  },
+  {
+    "day": 265,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          48,
+          49,
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "day": 266,
+    "readings": [
+      {
+        "book": "JER",
+        "chapters": [
+          51,
+          52
+        ]
+      },
+      {
+        "book": "LAM",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 267,
+    "readings": [
+      {
+        "book": "LAM",
+        "chapters": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 268,
+    "readings": [
+      {
+        "book": "LAM",
+        "chapters": [
+          5
+        ]
+      },
+      {
+        "book": "EZK",
+        "chapters": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 269,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          3,
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 270,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          6,
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "day": 271,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "day": 272,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "day": 273,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          15,
+          16,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "day": 274,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "day": 275,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          21,
+          22,
+          23
+        ]
+      }
+    ]
+  },
+  {
+    "day": 276,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          24,
+          25,
+          26
+        ]
+      }
+    ]
+  },
+  {
+    "day": 277,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          27,
+          28,
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "day": 278,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          30,
+          31,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "day": 279,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          33,
+          34,
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "day": 280,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          36,
+          37,
+          38
+        ]
+      }
+    ]
+  },
+  {
+    "day": 281,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          39,
+          40,
+          41
+        ]
+      }
+    ]
+  },
+  {
+    "day": 282,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          42,
+          43,
+          44
+        ]
+      }
+    ]
+  },
+  {
+    "day": 283,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          45,
+          46,
+          47
+        ]
+      }
+    ]
+  },
+  {
+    "day": 284,
+    "readings": [
+      {
+        "book": "EZK",
+        "chapters": [
+          48
+        ]
+      },
+      {
+        "book": "DAN",
+        "chapters": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 285,
+    "readings": [
+      {
+        "book": "DAN",
+        "chapters": [
+          3,
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 286,
+    "readings": [
+      {
+        "book": "DAN",
+        "chapters": [
+          6,
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "day": 287,
+    "readings": [
+      {
+        "book": "DAN",
+        "chapters": [
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "day": 288,
+    "readings": [
+      {
+        "book": "DAN",
+        "chapters": [
+          12
+        ]
+      },
+      {
+        "book": "HOS",
+        "chapters": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 289,
+    "readings": [
+      {
+        "book": "HOS",
+        "chapters": [
+          3,
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "day": 290,
+    "readings": [
+      {
+        "book": "HOS",
+        "chapters": [
+          6,
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "day": 291,
+    "readings": [
+      {
+        "book": "HOS",
+        "chapters": [
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "day": 292,
+    "readings": [
+      {
+        "book": "HOS",
+        "chapters": [
+          12,
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "day": 293,
+    "readings": [
+      {
+        "book": "JOL",
+        "chapters": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 294,
+    "readings": [
+      {
+        "book": "AMO",
+        "chapters": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 295,
+    "readings": [
+      {
+        "book": "AMO",
+        "chapters": [
+          4,
+          5,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "day": 296,
+    "readings": [
+      {
+        "book": "AMO",
+        "chapters": [
+          7,
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "day": 297,
+    "readings": [
+      {
+        "book": "OBA",
+        "chapters": [
+          1
+        ]
+      },
+      {
+        "book": "JON",
+        "chapters": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 298,
+    "readings": [
+      {
+        "book": "JON",
+        "chapters": [
+          3,
+          4
+        ]
+      },
+      {
+        "book": "MIC",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 299,
+    "readings": [
+      {
+        "book": "MIC",
+        "chapters": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 300,
+    "readings": [
+      {
+        "book": "MIC",
+        "chapters": [
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "day": 301,
+    "readings": [
+      {
+        "book": "NAM",
+        "chapters": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 302,
+    "readings": [
+      {
+        "book": "HAB",
+        "chapters": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 303,
+    "readings": [
+      {
+        "book": "ZEP",
+        "chapters": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "day": 304,
+    "readings": [
+      {
+        "book": "HAG",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "book": "ZEC",
+        "chapters": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "day": 305,
+    "readings": [
+      {
+        "book": "ZEC",
+        "chapters": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 306,
+    "readings": [
+      {
+        "book": "ZEC",
+        "chapters": [
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "day": 307,
+    "readings": [
+      {
+        "book": "ZEC",
+        "chapters": [
+          8,
+          9,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "day": 308,
+    "readings": [
+      {
+        "book": "ZEC",
+        "chapters": [
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "day": 309,
+    "readings": [
+      {
+        "book": "ZEC",
+        "chapters": [
+          14
+        ]
+      },
+      {
+        "book": "MAL",
+        "chapters": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "day": 310,
+    "readings": [
+      {
+        "book": "MAL",
+        "chapters": [
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "day": 311,
+    "readings": []
+  },
+  {
+    "day": 312,
+    "readings": []
+  },
+  {
+    "day": 313,
+    "readings": []
+  },
+  {
+    "day": 314,
+    "readings": []
+  },
+  {
+    "day": 315,
+    "readings": []
+  },
+  {
+    "day": 316,
+    "readings": []
+  },
+  {
+    "day": 317,
+    "readings": []
+  },
+  {
+    "day": 318,
+    "readings": []
+  },
+  {
+    "day": 319,
+    "readings": []
+  },
+  {
+    "day": 320,
+    "readings": []
+  },
+  {
+    "day": 321,
+    "readings": []
+  },
+  {
+    "day": 322,
+    "readings": []
+  },
+  {
+    "day": 323,
+    "readings": []
+  },
+  {
+    "day": 324,
+    "readings": []
+  },
+  {
+    "day": 325,
+    "readings": []
+  },
+  {
+    "day": 326,
+    "readings": []
+  },
+  {
+    "day": 327,
+    "readings": []
+  },
+  {
+    "day": 328,
+    "readings": []
+  },
+  {
+    "day": 329,
+    "readings": []
+  },
+  {
+    "day": 330,
+    "readings": []
+  },
+  {
+    "day": 331,
+    "readings": []
+  },
+  {
+    "day": 332,
+    "readings": []
+  },
+  {
+    "day": 333,
+    "readings": []
+  },
+  {
+    "day": 334,
+    "readings": []
+  },
+  {
+    "day": 335,
+    "readings": []
+  },
+  {
+    "day": 336,
+    "readings": []
+  },
+  {
+    "day": 337,
+    "readings": []
+  },
+  {
+    "day": 338,
+    "readings": []
+  },
+  {
+    "day": 339,
+    "readings": []
+  },
+  {
+    "day": 340,
+    "readings": []
+  },
+  {
+    "day": 341,
+    "readings": []
+  },
+  {
+    "day": 342,
+    "readings": []
+  },
+  {
+    "day": 343,
+    "readings": []
+  },
+  {
+    "day": 344,
+    "readings": []
+  },
+  {
+    "day": 345,
+    "readings": []
+  },
+  {
+    "day": 346,
+    "readings": []
+  },
+  {
+    "day": 347,
+    "readings": []
+  },
+  {
+    "day": 348,
+    "readings": []
+  },
+  {
+    "day": 349,
+    "readings": []
+  },
+  {
+    "day": 350,
+    "readings": []
+  },
+  {
+    "day": 351,
+    "readings": []
+  },
+  {
+    "day": 352,
+    "readings": []
+  },
+  {
+    "day": 353,
+    "readings": []
+  },
+  {
+    "day": 354,
+    "readings": []
+  },
+  {
+    "day": 355,
+    "readings": []
+  },
+  {
+    "day": 356,
+    "readings": []
+  },
+  {
+    "day": 357,
+    "readings": []
+  },
+  {
+    "day": 358,
+    "readings": []
+  },
+  {
+    "day": 359,
+    "readings": []
+  },
+  {
+    "day": 360,
+    "readings": []
+  },
+  {
+    "day": 361,
+    "readings": []
+  },
+  {
+    "day": 362,
+    "readings": []
+  },
+  {
+    "day": 363,
+    "readings": []
+  },
+  {
+    "day": 364,
+    "readings": []
+  },
+  {
+    "day": 365,
+    "readings": []
+  }
+]

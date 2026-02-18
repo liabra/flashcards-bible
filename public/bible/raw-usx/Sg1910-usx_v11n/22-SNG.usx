@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<usx version="3.0">
+  <book code="SNG" style="id">Sg1910 - Segond 1910 - 2026-02-17</book>
+  <para style="h">Le Cantique des cantiques</para>
+  <para style="toc1">Le Cantique des cantiques</para>
+  <para style="toc2">Cantique des Cantiques</para>
+  <para style="toc3">Cantique des Cantiques</para>
+  <para style="mt1">Le Cantique des cantiques</para>
+  <chapter number="1" style="c" sid="SNG 1">
+      <verse number="1" style="v" sid="SNG 1:1" />
+      <char style="w" strong="H7892">Cantique</char> des <char style="w" strong="H7892">cantiques</char><char style="w" strong="H0834">,</char> de <char style="w" strong="H8010">Salomon</char>.
+      <verse eid="SNG 1:1" />
+      <verse number="2" style="v" sid="SNG 1:2" />
+      Qu’il me <char style="w" strong="H5401">baise</char> des <char style="w" strong="H5390">baisers</char> de sa <char style="w" strong="H6310">bouche</char> ! <char style="w" strong="H3588">Car</char> ton <char style="w" strong="H1730">amour</char> vaut <char style="w" strong="H2896">mieux</char> que le <char style="w" strong="H3196">vin</char>,
+      <verse eid="SNG 1:2" />
+      <verse number="3" style="v" sid="SNG 1:3" />
+      Tes <char style="w" strong="H8081">parfums</char> ont une <char style="w" strong="H7381">odeur</char> <char style="w" strong="H2896">suave</char> ; Ton <char style="w" strong="H8034">nom</char> est un <char style="w" strong="H8081">parfum</char> qui se <char style="w" strong="H7324">répand</char> ; C’<char style="w" strong="H5921">est</char> <char style="w" strong="H3651">pourquoi</char> les jeunes <char style="w" strong="H5959">filles</char> t’<char style="w" strong="H0157">aiment</char>.
+      <verse eid="SNG 1:3" />
+      <verse number="4" style="v" sid="SNG 1:4" />
+      <char style="w" strong="H4900">Entraîne</char>-moi <char style="w" strong="H0310">après</char> toi ! Nous <char style="w" strong="H7323">courrons</char> ! Le <char style="w" strong="H4428">roi</char> m’<char style="w" strong="H0935">introduit</char> dans ses <char style="w" strong="H2315">appartements</char>… Nous nous <char style="w" strong="H1523">égaierons</char>, nous nous <char style="w" strong="H8055">réjouirons</char> à cause de toi ; Nous <char style="w" strong="H2142">célébrerons</char> ton <char style="w" strong="H1730">amour</char> plus que le <char style="w" strong="H3196">vin</char>. C’est avec <char style="w" strong="H4339">raison</char> que l’on t’<char style="w" strong="H0157">aime</char>.
+      <verse eid="SNG 1:4" />
+      <verse number="5" style="v" sid="SNG 1:5" />
+      <char style="w" strong="H0589">Je</char> suis <char style="w" strong="H7838">noire</char>, mais je suis <char style="w" strong="H5000">belle</char>, <char style="w" strong="H1323">filles</char> de <char style="w" strong="H3389">Jérusalem</char>, Comme les <char style="w" strong="H0168">tentes</char> de <char style="w" strong="H6938">Kédar</char>, comme les <char style="w" strong="H3407">pavillons</char> de <char style="w" strong="H8010">Salomon</char>.
+      <verse eid="SNG 1:5" />
+      <verse number="6" style="v" sid="SNG 1:6" />
+      Ne prenez <char style="w" strong="H0408">pas</char> <char style="w" strong="H7200">garde</char> à <char style="w" strong="H0589">mon</char> teint <char style="w" strong="H7840">noir</char> : C’est le <char style="w" strong="H8121">soleil</char> qui m’a <char style="w" strong="H7805">brûlée</char>. Les <char style="w" strong="H1121">fils</char> de ma <char style="w" strong="H0517">mère</char> se sont <char style="w" strong="H2787">irrités</char> contre moi, Ils m’ont <char style="w" strong="H7760">faite</char> <char style="w" strong="H5201">gardienne</char> des <char style="w" strong="H3754">vignes</char>. Ma <char style="w" strong="H3754">vigne</char>, à moi, je <char style="w" strong="H3808">ne</char> l’ai pas <char style="w" strong="H5201">gardée</char>.
+      <verse eid="SNG 1:6" />
+      <verse number="7" style="v" sid="SNG 1:7" />
+      <char style="w" strong="H5046">Dis</char>-moi, ô toi que mon <char style="w" strong="H5315">cœur</char> <char style="w" strong="H0157">aime</char>, <char style="w" strong="H0349">Où</char> tu fais <char style="w" strong="H7462">paître</char> tes brebis, <char style="w" strong="H0349">Où</char> tu les fais <char style="w" strong="H7257">reposer</char> à <char style="w" strong="H6672">midi</char> ; <char style="w" strong="H4100">Car</char> pourquoi <char style="w" strong="H1961">serais</char>-je comme une <char style="w" strong="H5844">égarée</char> Près <char style="w" strong="H5921">des</char> <char style="w" strong="H5739">troupeaux</char> de tes <char style="w" strong="H2270">compagnons</char> ? -
+      <verse eid="SNG 1:7" />
+      <verse number="8" style="v" sid="SNG 1:8" />
+      <char style="w" strong="H0518">Si</char> tu ne le <char style="w" strong="H3045">sais</char> <char style="w" strong="H3808">pas</char>, ô la plus <char style="w" strong="H3303">belle</char> des <char style="w" strong="H0802">femmes</char>, <char style="w" strong="H3318">Sors</char> sur les <char style="w" strong="H6119">traces</char> des <char style="w" strong="H6629">brebis</char>, Et fais <char style="w" strong="H7462">paître</char> tes <char style="w" strong="H1429">chevreaux</char> <char style="w" strong="H5921">Près</char> des <char style="w" strong="H4908">demeures</char> des <char style="w" strong="H7462">bergers</char>. -
+      <verse eid="SNG 1:8" />
+      <verse number="9" style="v" sid="SNG 1:9" />
+      À ma <char style="w" strong="H5484">jument</char> qu’on attelle aux <char style="w" strong="H7393">chars</char> de <char style="w" strong="H6547">Pharaon</char> Je te <char style="w" strong="H1819">compare</char>, ô mon <char style="w" strong="H7474">amie</char>.
+      <verse eid="SNG 1:9" />
+      <verse number="10" style="v" sid="SNG 1:10" />
+      Tes <char style="w" strong="H3895">joues</char> sont <char style="w" strong="H4998">belles</char> au milieu des <char style="w" strong="H8447">colliers</char>, Ton <char style="w" strong="H6677">cou</char> est beau au milieu des <char style="w" strong="H2737">rangées</char> de perles.
+      <verse eid="SNG 1:10" />
+      <verse number="11" style="v" sid="SNG 1:11" />
+      Nous te <char style="w" strong="H6213">ferons</char> des <char style="w" strong="H8447">colliers</char> d’<char style="w" strong="H2091">or</char>, <char style="w" strong="H5973">Avec</char> des <char style="w" strong="H5351">points</char> d’<char style="w" strong="H3701">argent</char>. -
+      <verse eid="SNG 1:11" />
+      <verse number="12" style="v" sid="SNG 1:12" />
+      Tandis <char style="w" strong="H5704">que</char> le <char style="w" strong="H4428">roi</char> est dans son <char style="w" strong="H4524">entourage</char>, Mon <char style="w" strong="H5373">nard</char> <char style="w" strong="H5414">exhale</char> son <char style="w" strong="H7381">parfum</char>.
+      <verse eid="SNG 1:12" />
+      <verse number="13" style="v" sid="SNG 1:13" />
+      Mon <char style="w" strong="H1730">bien-aimé</char> est pour moi un <char style="w" strong="H6872">bouquet</char> de <char style="w" strong="H4753">myrrhe</char>, Qui <char style="w" strong="H3885">repose</char> <char style="w" strong="H0996">entre</char> mes <char style="w" strong="H7699">seins</char>.
+      <verse eid="SNG 1:13" />
+      <verse number="14" style="v" sid="SNG 1:14" />
+      Mon <char style="w" strong="H1730">bien-aimé</char> est pour moi une <char style="w" strong="H0811">grappe</char> de <char style="w" strong="H3724">troëne</char> Des <char style="w" strong="H3754">vignes</char> d’<char style="w" strong="H5872">En</char>-<char style="w" strong="H5872">Guédi</char>. -
+      <verse eid="SNG 1:14" />
+      <verse number="15" style="v" sid="SNG 1:15" />
+      Que tu <char style="w" strong="H2005">es</char> <char style="w" strong="H3303">belle</char>, mon <char style="w" strong="H7474">amie</char>, que tu <char style="w" strong="H2005">es</char> <char style="w" strong="H3303">belle</char> ! Tes <char style="w" strong="H5869">yeux</char> sont des <char style="w" strong="H3123">colombes</char>. -
+      <verse eid="SNG 1:15" />
+      <verse number="16" style="v" sid="SNG 1:16" />
+      Que tu <char style="w" strong="H2005">es</char> <char style="w" strong="H3303">beau</char>, mon <char style="w" strong="H1730">bien-aimé</char>, que <char style="w" strong="H0637">tu</char> es <char style="w" strong="H5273">aimable</char> ! <char style="w" strong="H0637">Notre</char> <char style="w" strong="H6210">lit</char>, c’est la <char style="w" strong="H7488">verdure</char>. -
+      <verse eid="SNG 1:16" />
+      <verse number="17" style="v" sid="SNG 1:17" />
+      Les <char style="w" strong="H6982">solives</char> de nos <char style="w" strong="H1004">maisons</char> sont des <char style="w" strong="H0730">cèdres</char>, Nos <char style="w" strong="H7351">lambris</char> sont des <char style="w" strong="H1266">cyprès</char>. –
+      <verse eid="SNG 1:17" />
+  </chapter>
+  <chapter number="2" style="c" sid="SNG 2">
+      <verse number="1" style="v" sid="SNG 2:1" />
+      <char style="w" strong="H0589">Je</char> suis un <char style="w" strong="H2261">narcisse</char> de <char style="w" strong="H8289">Saron</char>, Un <char style="w" strong="H7799">lis</char> des <char style="w" strong="H6010">vallées</char>. -
+      <verse eid="SNG 2:1" />
+      <verse number="2" style="v" sid="SNG 2:2" />
+      Comme un <char style="w" strong="H7799">lis</char> au <char style="w" strong="H0996">milieu</char> des <char style="w" strong="H2336">épines</char>, <char style="w" strong="H3651">Telle</char> est mon <char style="w" strong="H7474">amie</char> parmi <char style="w" strong="H0996">les</char> jeunes <char style="w" strong="H1323">filles</char>. -
+      <verse eid="SNG 2:2" />
+      <verse number="3" style="v" sid="SNG 2:3" />
+      Comme un <char style="w" strong="H8598">pommier</char> au milieu des <char style="w" strong="H6086">arbres</char> de la <char style="w" strong="H3293">forêt</char>, <char style="w" strong="H3651">Tel</char> est mon <char style="w" strong="H1730">bien-aimé</char> parmi <char style="w" strong="H0996">les</char> jeunes <char style="w" strong="H1121">hommes</char>. J’ai <char style="w" strong="H2530">désiré</char> m’<char style="w" strong="H3427">asseoir</char> à son <char style="w" strong="H6738">ombre</char>, Et son <char style="w" strong="H6529">fruit</char> est <char style="w" strong="H4966">doux</char> à mon <char style="w" strong="H2441">palais</char>.
+      <verse eid="SNG 2:3" />
+      <verse number="4" style="v" sid="SNG 2:4" />
+      Il m’a fait <char style="w" strong="H0935">entrer</char> <char style="w" strong="H0413">dans</char> la <char style="w" strong="H1004">maison</char> du <char style="w" strong="H3196">vin</char> ; Et la <char style="w" strong="H1714">bannière</char> qu’il déploie sur <char style="w" strong="H5921">moi</char>, c’est l’<char style="w" strong="H0160">amour</char>.
+      <verse eid="SNG 2:4" />
+      <verse number="5" style="v" sid="SNG 2:5" />
+      <char style="w" strong="H5564">Soutenez</char>-moi avec des gâteaux de <char style="w" strong="H0809">raisins</char>, <char style="w" strong="H7502">Fortifiez</char>-moi avec des <char style="w" strong="H8598">pommes</char> ; <char style="w" strong="H3588">Car</char> <char style="w" strong="H0589">je</char> suis <char style="w" strong="H2470">malade</char> d’<char style="w" strong="H0160">amour</char>.
+      <verse eid="SNG 2:5" />
+      <verse number="6" style="v" sid="SNG 2:6" />
+      Que sa main <char style="w" strong="H8040">gauche</char> soit <char style="w" strong="H8478">sous</char> ma <char style="w" strong="H7218">tête</char>, Et que sa <char style="w" strong="H3225">droite</char> m’<char style="w" strong="H2263">embrasse</char> ! -
+      <verse eid="SNG 2:6" />
+      <verse number="7" style="v" sid="SNG 2:7" />
+      Je <char style="w" strong="H0853">vous</char> en <char style="w" strong="H7650">conjure</char>, <char style="w" strong="H1323">filles</char> de <char style="w" strong="H3389">Jérusalem</char>, Par les <char style="w" strong="H6643">gazelles</char> <char style="w" strong="H0176">et</char> les <char style="w" strong="H0355">biches</char> des <char style="w" strong="H7704">champs</char>, Ne <char style="w" strong="H5782">réveillez</char> <char style="w" strong="H0518">pas</char>, ne <char style="w" strong="H5782">réveillez</char> <char style="w" strong="H0518">pas</char> l’<char style="w" strong="H0160">amour</char>, Avant <char style="w" strong="H5704">qu’</char>elle le <char style="w" strong="H2654">veuille</char>. -
+      <verse eid="SNG 2:7" />
+      <verse number="8" style="v" sid="SNG 2:8" />
+      C’est la <char style="w" strong="H6963">voix</char> de mon <char style="w" strong="H1730">bien-aimé</char> ! Le <char style="w" strong="H2009">voici</char>, <char style="w" strong="H2088">il</char> <char style="w" strong="H0935">vient</char>, <char style="w" strong="H1801">Sautant</char> <char style="w" strong="H5921">sur</char> les <char style="w" strong="H2022">montagnes</char>, <char style="w" strong="H7092">Bondissant</char> <char style="w" strong="H5921">sur</char> les <char style="w" strong="H1389">collines</char>.
+      <verse eid="SNG 2:8" />
+      <verse number="9" style="v" sid="SNG 2:9" />
+      Mon <char style="w" strong="H1730">bien-aimé</char> est <char style="w" strong="H1819">semblable</char> à la <char style="w" strong="H6643">gazelle</char> <char style="w" strong="H0176">Ou</char> au <char style="w" strong="H6082">faon</char> des <char style="w" strong="H0354">biches</char>. Le <char style="w" strong="H2009">voici</char>, <char style="w" strong="H2088">il</char> est <char style="w" strong="H5975">derrière</char> <char style="w" strong="H0310">notre</char> <char style="w" strong="H3796">mur</char>, Il <char style="w" strong="H7688">regarde</char> <char style="w" strong="H4480">par</char> la <char style="w" strong="H2474">fenêtre</char>, Il <char style="w" strong="H6692">regarde</char> par <char style="w" strong="H4480">le</char> <char style="w" strong="H2762">treillis</char>.
+      <verse eid="SNG 2:9" />
+      <verse number="10" style="v" sid="SNG 2:10" />
+      Mon <char style="w" strong="H1730">bien-aimé</char> <char style="w" strong="H6030">parle</char> et me <char style="w" strong="H0559">dit</char> : <char style="w" strong="H6965">Lève</char>-toi, mon <char style="w" strong="H7474">amie</char>, ma <char style="w" strong="H3303">belle</char>, et <char style="w" strong="H3212">viens</char> !
+      <verse eid="SNG 2:10" />
+      <verse number="11" style="v" sid="SNG 2:11" />
+      <char style="w" strong="H3588">Car</char> <char style="w" strong="H2009">voici</char>, l’<char style="w" strong="H5638">hiver</char> est <char style="w" strong="H5674">passé</char> ; La <char style="w" strong="H1653">pluie</char> a <char style="w" strong="H2498">cessé</char>, elle s’en est <char style="w" strong="H1980">allée</char>.
+      <verse eid="SNG 2:11" />
+      <verse number="12" style="v" sid="SNG 2:12" />
+      Les <char style="w" strong="H5339">fleurs</char> <char style="w" strong="H7200">paraissent</char> sur la <char style="w" strong="H0776">terre</char>, Le <char style="w" strong="H6256">temps</char> de <char style="w" strong="H2159">chanter</char> est <char style="w" strong="H5060">arrivé</char>, Et la <char style="w" strong="H6963">voix</char> de la <char style="w" strong="H8449">tourterelle</char> se fait <char style="w" strong="H8085">entendre</char> dans nos <char style="w" strong="H0776">campagnes</char>.
+      <verse eid="SNG 2:12" />
+      <verse number="13" style="v" sid="SNG 2:13" />
+      Le <char style="w" strong="H8384">figuier</char> <char style="w" strong="H2590">embaume</char> ses <char style="w" strong="H6291">fruits</char>, Et les <char style="w" strong="H1612">vignes</char> en <char style="w" strong="H5563">fleur</char> <char style="w" strong="H5414">exhalent</char> leur <char style="w" strong="H7381">parfum</char>. <char style="w" strong="H6965">Lève</char>-toi, mon <char style="w" strong="H7474">amie</char>, ma <char style="w" strong="H3303">belle</char>, et <char style="w" strong="H3212">viens</char> !
+      <verse eid="SNG 2:13" />
+      <verse number="14" style="v" sid="SNG 2:14" />
+      Ma <char style="w" strong="H3123">colombe</char>, qui te tiens dans les <char style="w" strong="H2288">fentes</char> du <char style="w" strong="H5553">rocher</char>, Qui te <char style="w" strong="H5643">caches</char> dans les parois <char style="w" strong="H4095">escarpées</char>, Fais-moi <char style="w" strong="H7200">voir</char> ta <char style="w" strong="H4758">figure</char>, Fais-moi <char style="w" strong="H8085">entendre</char> ta <char style="w" strong="H6963">voix</char> ; <char style="w" strong="H3588">Car</char> ta <char style="w" strong="H6963">voix</char> est <char style="w" strong="H6156">douce</char>, et ta <char style="w" strong="H4758">figure</char> est <char style="w" strong="H5000">agréable</char>.
+      <verse eid="SNG 2:14" />
+      <verse number="15" style="v" sid="SNG 2:15" />
+      <char style="w" strong="H0270">Prenez</char>-nous les <char style="w" strong="H7776">renards</char>, Les <char style="w" strong="H6996">petits</char> <char style="w" strong="H7776">renards</char> qui <char style="w" strong="H2254">ravagent</char> les <char style="w" strong="H3754">vignes</char> ; Car nos <char style="w" strong="H3754">vignes</char> sont en <char style="w" strong="H5563">fleur</char>.
+      <verse eid="SNG 2:15" />
+      <verse number="16" style="v" sid="SNG 2:16" />
+      Mon <char style="w" strong="H1730">bien-aimé</char> est à <char style="w" strong="H0589">moi</char>, et je suis à lui ; Il fait <char style="w" strong="H7462">paître</char> son troupeau parmi les <char style="w" strong="H7799">lis</char>.
+      <verse eid="SNG 2:16" />
+      <verse number="17" style="v" sid="SNG 2:17" />
+      Avant que le <char style="w" strong="H3117">jour</char> <char style="w" strong="H5704">se</char> <char style="w" strong="H6315">rafraîchisse</char>, Et que les <char style="w" strong="H6752">ombres</char> <char style="w" strong="H5127">fuient</char>, <char style="w" strong="H5437">Reviens</char> !… sois <char style="w" strong="H1819">semblable</char>, mon <char style="w" strong="H1730">bien-aimé</char>, À la <char style="w" strong="H6643">gazelle</char> <char style="w" strong="H0176">ou</char> au <char style="w" strong="H6082">faon</char> des <char style="w" strong="H0354">biches</char>, <char style="w" strong="H5921">Sur</char> les <char style="w" strong="H2022">montagnes</char> qui nous <char style="w" strong="H1336">séparent</char>.
+      <verse eid="SNG 2:17" />
+  </chapter>
+  <chapter number="3" style="c" sid="SNG 3">
+      <verse number="1" style="v" sid="SNG 3:1" />
+      <char style="w" strong="H5921">Sur</char> ma <char style="w" strong="H4904">couche</char>, pendant les <char style="w" strong="H3915">nuits</char>, J’ai <char style="w" strong="H1245">cherché</char> celui que mon <char style="w" strong="H5315">cœur</char> <char style="w" strong="H0157">aime</char> ; Je l’ai <char style="w" strong="H1245">cherché</char>, et je <char style="w" strong="H3808">ne</char> l’ai point <char style="w" strong="H4672">trouvé</char>…
+      <verse eid="SNG 3:1" />
+      <verse number="2" style="v" sid="SNG 3:2" />
+      Je me <char style="w" strong="H6965">lèverai</char>, et <char style="w" strong="H4994">je</char> ferai le <char style="w" strong="H5437">tour</char> de la <char style="w" strong="H5892">ville</char>, Dans les <char style="w" strong="H7784">rues</char> et sur les <char style="w" strong="H7339">places</char> ; Je <char style="w" strong="H1245">chercherai</char> celui que mon <char style="w" strong="H5315">cœur</char> <char style="w" strong="H0157">aime</char>… Je l’ai <char style="w" strong="H1245">cherché</char>, et je <char style="w" strong="H3808">ne</char> l’ai point <char style="w" strong="H4672">trouvé</char>.
+      <verse eid="SNG 3:2" />
+      <verse number="3" style="v" sid="SNG 3:3" />
+      Les <char style="w" strong="H8104">gardes</char> qui font la <char style="w" strong="H5437">ronde</char> dans la <char style="w" strong="H5892">ville</char> m’ont <char style="w" strong="H4672">rencontrée</char> : Avez-vous <char style="w" strong="H7200">vu</char> celui que mon <char style="w" strong="H5315">cœur</char> <char style="w" strong="H0157">aime</char> ?
+      <verse eid="SNG 3:3" />
+      <verse number="4" style="v" sid="SNG 3:4" />
+      À <char style="w" strong="H4592">peine</char> les avais-je <char style="w" strong="H5674">passés</char>, <char style="w" strong="H5704">Que</char> j’ai <char style="w" strong="H4672">trouvé</char> celui que mon <char style="w" strong="H5315">cœur</char> <char style="w" strong="H0157">aime</char> ; Je l’ai <char style="w" strong="H0270">saisi</char>, et je <char style="w" strong="H3808">ne</char> l’ai point <char style="w" strong="H7503">lâché</char> Jusqu’à ce <char style="w" strong="H5704">que</char> je l’aie <char style="w" strong="H0935">amené</char> <char style="w" strong="H0413">dans</char> la <char style="w" strong="H1004">maison</char> de ma <char style="w" strong="H0517">mère</char>, <char style="w" strong="H0413">Dans</char> la <char style="w" strong="H2315">chambre</char> de celle qui m’a <char style="w" strong="H2029">conçue</char>. -
+      <verse eid="SNG 3:4" />
+      <verse number="5" style="v" sid="SNG 3:5" />
+      Je <char style="w" strong="H0853">vous</char> en <char style="w" strong="H7650">conjure</char>, <char style="w" strong="H1323">filles</char> de <char style="w" strong="H3389">Jérusalem</char>, Par les <char style="w" strong="H6643">gazelles</char> <char style="w" strong="H0176">et</char> les <char style="w" strong="H0355">biches</char> des <char style="w" strong="H7704">champs</char>, Ne <char style="w" strong="H5782">réveillez</char> <char style="w" strong="H0518">pas</char>, ne <char style="w" strong="H5782">réveillez</char> <char style="w" strong="H0518">pas</char> l’<char style="w" strong="H0160">amour</char>, Avant <char style="w" strong="H5704">qu’</char>elle le <char style="w" strong="H2654">veuille</char>. -
+      <verse eid="SNG 3:5" />
+      <verse number="6" style="v" sid="SNG 3:6" />
+      Qui <char style="w" strong="H4310">est</char> celle <char style="w" strong="H2063">qui</char> <char style="w" strong="H5927">monte</char> <char style="w" strong="H4480">du</char> <char style="w" strong="H4057">désert</char>, Comme des <char style="w" strong="H8490">colonnes</char> de <char style="w" strong="H6227">fumée</char>, Au milieu des <char style="w" strong="H6999">vapeurs</char> de <char style="w" strong="H4753">myrrhe</char> et d’<char style="w" strong="H3828">encens</char> Et de <char style="w" strong="H3605">tous</char> les <char style="w" strong="H0081">aromates</char> des <char style="w" strong="H7402">marchands</char> ? -
+      <verse eid="SNG 3:6" />
+      <verse number="7" style="v" sid="SNG 3:7" />
+      <char style="w" strong="H2009">Voici</char> la <char style="w" strong="H4296">litière</char> de <char style="w" strong="H8010">Salomon</char>, Et <char style="w" strong="H5439">autour</char> d’elle <char style="w" strong="H8346">soixante</char> <char style="w" strong="H1368">vaillants</char> hommes, Des plus <char style="w" strong="H1368">vaillants</char> d’<char style="w" strong="H3478">Israël</char>.
+      <verse eid="SNG 3:7" />
+      <verse number="8" style="v" sid="SNG 3:8" />
+      <char style="w" strong="H3605">Tous</char> sont <char style="w" strong="H0270">armés</char> de l’<char style="w" strong="H2719">épée</char>, Sont <char style="w" strong="H3925">exercés</char> au <char style="w" strong="H4421">combat</char> ; <char style="w" strong="H0376">Chacun</char> porte l’<char style="w" strong="H2719">épée</char> <char style="w" strong="H5921">sur</char> sa <char style="w" strong="H3409">hanche</char>, En vue des <char style="w" strong="H6343">alarmes</char> <char style="w" strong="H3915">nocturnes</char>.
+      <verse eid="SNG 3:8" />
+      <verse number="9" style="v" sid="SNG 3:9" />
+      Le <char style="w" strong="H4428">roi</char> <char style="w" strong="H8010">Salomon</char> s’est <char style="w" strong="H6213">fait</char> une <char style="w" strong="H0668">litière</char> De <char style="w" strong="H6086">bois</char> du <char style="w" strong="H3844">Liban</char>.
+      <verse eid="SNG 3:9" />
+      <verse number="10" style="v" sid="SNG 3:10" />
+      Il en a <char style="w" strong="H6213">fait</char> les <char style="w" strong="H5982">colonnes</char> d’<char style="w" strong="H3701">argent</char>, Le <char style="w" strong="H7507">dossier</char> d’<char style="w" strong="H2091">or</char>, Le <char style="w" strong="H4817">siège</char> de <char style="w" strong="H0713">pourpre</char> ; Au <char style="w" strong="H8432">milieu</char> est une <char style="w" strong="H7528">broderie</char>, œuvre d’<char style="w" strong="H0160">amour</char> Des <char style="w" strong="H1323">filles</char> de <char style="w" strong="H3389">Jérusalem</char>.
+      <verse eid="SNG 3:10" />
+      <verse number="11" style="v" sid="SNG 3:11" />
+      <char style="w" strong="H3318">Sortez</char>, <char style="w" strong="H1323">filles</char> de <char style="w" strong="H6726">Sion</char>, <char style="w" strong="H7200">regardez</char> Le <char style="w" strong="H4428">roi</char> <char style="w" strong="H8010">Salomon</char>, Avec la <char style="w" strong="H5850">couronne</char> dont sa <char style="w" strong="H0517">mère</char> l’a <char style="w" strong="H5849">couronné</char> Le <char style="w" strong="H3117">jour</char> de ses <char style="w" strong="H2861">fiançailles</char>, Le <char style="w" strong="H3117">jour</char> de la <char style="w" strong="H8057">joie</char> de son <char style="w" strong="H3820">cœur</char>. –
+      <verse eid="SNG 3:11" />
+  </chapter>
+  <chapter number="4" style="c" sid="SNG 4">
+      <verse number="1" style="v" sid="SNG 4:1" />
+      Que tu <char style="w" strong="H2005">es</char> <char style="w" strong="H3303">belle</char>, mon <char style="w" strong="H7474">amie</char>, que tu <char style="w" strong="H2005">es</char> <char style="w" strong="H3303">belle</char> ! Tes <char style="w" strong="H5869">yeux</char> sont des <char style="w" strong="H3123">colombes</char>, <char style="w" strong="H1157">Derrière</char> ton <char style="w" strong="H6777">voile</char>. Tes <char style="w" strong="H8181">cheveux</char> sont comme un <char style="w" strong="H5739">troupeau</char> de <char style="w" strong="H5795">chèvres</char>, <char style="w" strong="H1570">Suspendues</char> aux flancs de la <char style="w" strong="H2022">montagne</char> de <char style="w" strong="H1568">Galaad</char>.
+      <verse eid="SNG 4:1" />
+      <verse number="2" style="v" sid="SNG 4:2" />
+      Tes <char style="w" strong="H8127">dents</char> sont comme un <char style="w" strong="H5739">troupeau</char> de brebis <char style="w" strong="H7094">tondues</char>, Qui <char style="w" strong="H5927">remontent</char> de l’<char style="w" strong="H7367">abreuvoir</char> ; <char style="w" strong="H3605">Toutes</char> <char style="w" strong="H4480">portent</char> des <char style="w" strong="H8382">jumeaux</char>, Aucune d’elles <char style="w" strong="H0369">n’</char>est <char style="w" strong="H7909">stérile</char>.
+      <verse eid="SNG 4:2" />
+      <verse number="3" style="v" sid="SNG 4:3" />
+      Tes <char style="w" strong="H8193">lèvres</char> sont comme un <char style="w" strong="H2339">fil</char> <char style="w" strong="H8144">cramoisi</char>, Et ta <char style="w" strong="H4057">bouche</char> est <char style="w" strong="H5000">charmante</char> ; Ta <char style="w" strong="H7541">joue</char> est comme une <char style="w" strong="H6400">moitié</char> de <char style="w" strong="H7416">grenade</char>, <char style="w" strong="H1157">Derrière</char> ton <char style="w" strong="H6777">voile</char>.
+      <verse eid="SNG 4:3" />
+      <verse number="4" style="v" sid="SNG 4:4" />
+      Ton <char style="w" strong="H6677">cou</char> est comme la <char style="w" strong="H4026">tour</char> de <char style="w" strong="H1732">David</char>, <char style="w" strong="H1129">Bâtie</char> pour être un <char style="w" strong="H8530">arsenal</char> ; <char style="w" strong="H0505">Mille</char> <char style="w" strong="H4043">boucliers</char> <char style="w" strong="H5921">y</char> sont <char style="w" strong="H8518">suspendus</char>, <char style="w" strong="H3605">Tous</char> les <char style="w" strong="H7982">boucliers</char> des <char style="w" strong="H1368">héros</char>.
+      <verse eid="SNG 4:4" />
+      <verse number="5" style="v" sid="SNG 4:5" />
+      Tes <char style="w" strong="H8147">deux</char> <char style="w" strong="H7699">seins</char> sont comme <char style="w" strong="H8147">deux</char> <char style="w" strong="H6082">faons</char>, Comme les <char style="w" strong="H8380">jumeaux</char> d’une <char style="w" strong="H6646">gazelle</char>, Qui <char style="w" strong="H7462">paissent</char> au milieu des <char style="w" strong="H7799">lis</char>.
+      <verse eid="SNG 4:5" />
+      <verse number="6" style="v" sid="SNG 4:6" />
+      Avant <char style="w" strong="H5704">que</char> le <char style="w" strong="H3117">jour</char> se <char style="w" strong="H6315">rafraîchisse</char>, Et que les <char style="w" strong="H6752">ombres</char> <char style="w" strong="H5127">fuient</char>, J’<char style="w" strong="H3212">irai</char> <char style="w" strong="H0413">à</char> la <char style="w" strong="H2022">montagne</char> de la <char style="w" strong="H4753">myrrhe</char> Et <char style="w" strong="H0413">à</char> la <char style="w" strong="H1389">colline</char> de l’<char style="w" strong="H3828">encens</char>.
+      <verse eid="SNG 4:6" />
+      <verse number="7" style="v" sid="SNG 4:7" />
+      Tu es <char style="w" strong="H3605">toute</char> <char style="w" strong="H3303">belle</char>, mon <char style="w" strong="H7474">amie</char>, Et il n’y a <char style="w" strong="H0369">point</char> en toi de <char style="w" strong="H3971">défaut</char>.
+      <verse eid="SNG 4:7" />
+      <verse number="8" style="v" sid="SNG 4:8" />
+      <char style="w" strong="H0935">Viens</char> <char style="w" strong="H0854">avec</char> moi du <char style="w" strong="H3844">Liban</char>, ma <char style="w" strong="H3618">fiancée</char>, Viens <char style="w" strong="H0854">avec</char> moi du <char style="w" strong="H3844">Liban</char> ! <char style="w" strong="H7789">Regarde</char> du <char style="w" strong="H7218">sommet</char> de l’<char style="w" strong="H0549">Amana</char>, Du <char style="w" strong="H7218">sommet</char> du <char style="w" strong="H8149">Senir</char> et de l’<char style="w" strong="H2768">Hermon</char>, Des <char style="w" strong="H4585">tanières</char> des <char style="w" strong="H0738">lions</char>, Des <char style="w" strong="H2042">montagnes</char> des <char style="w" strong="H5246">léopards</char>.
+      <verse eid="SNG 4:8" />
+      <verse number="9" style="v" sid="SNG 4:9" />
+      Tu me ravis le <char style="w" strong="H3823">cœur</char>, ma <char style="w" strong="H0269">sœur</char>, ma <char style="w" strong="H3618">fiancée</char>, Tu me ravis le <char style="w" strong="H3823">cœur</char> par l’<char style="w" strong="H0259">un</char> de tes <char style="w" strong="H5869">regards</char>, Par l’<char style="w" strong="H0259">un</char> des <char style="w" strong="H6060">colliers</char> de ton <char style="w" strong="H6677">cou</char>.
+      <verse eid="SNG 4:9" />
+      <verse number="10" style="v" sid="SNG 4:10" />
+      <char style="w" strong="H4100">Que</char> de <char style="w" strong="H3302">charmes</char> dans ton <char style="w" strong="H1730">amour</char>, ma <char style="w" strong="H0269">sœur</char>, ma <char style="w" strong="H3618">fiancée</char> ! Comme ton <char style="w" strong="H1730">amour</char> vaut <char style="w" strong="H2895">mieux</char> <char style="w" strong="H4100">que</char> le <char style="w" strong="H3196">vin</char>, Et <char style="w" strong="H7381">combien</char> tes <char style="w" strong="H8081">parfums</char> sont plus suaves que <char style="w" strong="H3605">tous</char> les <char style="w" strong="H1314">aromates</char> !
+      <verse eid="SNG 4:10" />
+      <verse number="11" style="v" sid="SNG 4:11" />
+      Tes <char style="w" strong="H8193">lèvres</char> <char style="w" strong="H5197">distillent</char> le <char style="w" strong="H5317">miel</char>, ma <char style="w" strong="H3618">fiancée</char> ; Il y a <char style="w" strong="H8478">sous</char> ta <char style="w" strong="H3956">langue</char> du <char style="w" strong="H1706">miel</char> et du <char style="w" strong="H2461">lait</char>, Et l’<char style="w" strong="H7381">odeur</char> de tes <char style="w" strong="H8008">vêtements</char> est comme l’<char style="w" strong="H7381">odeur</char> du <char style="w" strong="H3844">Liban</char>.
+      <verse eid="SNG 4:11" />
+      <verse number="12" style="v" sid="SNG 4:12" />
+      Tu es un <char style="w" strong="H1588">jardin</char> <char style="w" strong="H5274">fermé</char>, ma <char style="w" strong="H0269">sœur</char>, ma <char style="w" strong="H3618">fiancée</char>, Une <char style="w" strong="H1530">source</char> <char style="w" strong="H5274">fermée</char>, une <char style="w" strong="H4599">fontaine</char> <char style="w" strong="H2856">scellée</char>.
+      <verse eid="SNG 4:12" />
+      <verse number="13" style="v" sid="SNG 4:13" />
+      Tes <char style="w" strong="H7973">jets</char> forment un <char style="w" strong="H6508">jardin</char>, où sont des <char style="w" strong="H7416">grenadiers</char>, <char style="w" strong="H5973">Avec</char> les <char style="w" strong="H6529">fruits</char> les plus <char style="w" strong="H4022">excellents</char>, Les <char style="w" strong="H3724">troënes</char> avec <char style="w" strong="H5973">le</char> <char style="w" strong="H5373">nard</char> ;
+      <verse eid="SNG 4:13" />
+      <verse number="14" style="v" sid="SNG 4:14" />
+      Le <char style="w" strong="H5373">nard</char> et le <char style="w" strong="H3750">safran</char>, le roseau <char style="w" strong="H7070">aromatique</char> et le <char style="w" strong="H7076">cinnamome</char>, <char style="w" strong="H5973">Avec</char> <char style="w" strong="H3605">tous</char> les <char style="w" strong="H6086">arbres</char> qui donnent l’<char style="w" strong="H3828">encens</char> ; La <char style="w" strong="H4753">myrrhe</char> et l’<char style="w" strong="H0174">aloès</char>, <char style="w" strong="H5973">Avec</char> <char style="w" strong="H3605">tous</char> les <char style="w" strong="H7218">principaux</char> <char style="w" strong="H1314">aromates</char> ;
+      <verse eid="SNG 4:14" />
+      <verse number="15" style="v" sid="SNG 4:15" />
+      Une <char style="w" strong="H4599">fontaine</char> des <char style="w" strong="H1588">jardins</char>, Une <char style="w" strong="H0875">source</char> d’<char style="w" strong="H4325">eaux</char> <char style="w" strong="H2416">vives</char>, Des <char style="w" strong="H5140">ruisseaux</char> <char style="w" strong="H4480">du</char> <char style="w" strong="H3844">Liban</char>.
+      <verse eid="SNG 4:15" />
+      <verse number="16" style="v" sid="SNG 4:16" />
+      <char style="w" strong="H5782">Lève</char>-toi, <char style="w" strong="H6828">aquilon</char> ! <char style="w" strong="H0935">viens</char>, <char style="w" strong="H8486">autan</char> ! <char style="w" strong="H6315">Soufflez</char> sur mon <char style="w" strong="H1588">jardin</char>, et que les <char style="w" strong="H1314">parfums</char> s’en <char style="w" strong="H5140">exhalent</char> ! -Que mon <char style="w" strong="H1730">bien-aimé</char> <char style="w" strong="H0935">entre</char> dans son <char style="w" strong="H1588">jardin</char>, Et qu’il <char style="w" strong="H0398">mange</char> de ses <char style="w" strong="H6529">fruits</char> <char style="w" strong="H4022">excellents</char> ! –
+      <verse eid="SNG 4:16" />
+  </chapter>
+  <chapter number="5" style="c" sid="SNG 5">
+      <verse number="1" style="v" sid="SNG 5:1" />
+      J’<char style="w" strong="H0935">entre</char> dans mon <char style="w" strong="H1588">jardin</char>, ma <char style="w" strong="H0269">sœur</char>, ma <char style="w" strong="H3618">fiancée</char> ; Je <char style="w" strong="H0717">cueille</char> ma <char style="w" strong="H4753">myrrhe</char> <char style="w" strong="H5973">avec</char> mes <char style="w" strong="H1313">aromates</char>, Je <char style="w" strong="H0398">mange</char> mon rayon de <char style="w" strong="H3293">miel</char> <char style="w" strong="H5973">avec</char> mon <char style="w" strong="H1706">miel</char>, Je <char style="w" strong="H8354">bois</char> mon <char style="w" strong="H3196">vin</char> <char style="w" strong="H5973">avec</char> mon <char style="w" strong="H2461">lait</char>… -<char style="w" strong="H0398">Mangez</char>, <char style="w" strong="H7453">amis</char>, <char style="w" strong="H8354">buvez</char>, <char style="w" strong="H7937">enivrez</char>-vous d’<char style="w" strong="H1730">amour</char> ! -
+      <verse eid="SNG 5:1" />
+      <verse number="2" style="v" sid="SNG 5:2" />
+      <char style="w" strong="H0589">J’</char>étais <char style="w" strong="H3463">endormie</char>, mais mon <char style="w" strong="H3820">cœur</char> <char style="w" strong="H5782">veillait</char>… C’est la <char style="w" strong="H6963">voix</char> de mon <char style="w" strong="H1730">bien-aimé</char>, qui <char style="w" strong="H1849">frappe</char> : -<char style="w" strong="H6605">Ouvre</char>-moi, ma <char style="w" strong="H0269">sœur</char>, mon <char style="w" strong="H7474">amie</char>, Ma <char style="w" strong="H3123">colombe</char>, ma <char style="w" strong="H8535">parfaite</char> ! Car ma <char style="w" strong="H7218">tête</char> est <char style="w" strong="H4390">couverte</char> de <char style="w" strong="H2919">rosée</char>, Mes <char style="w" strong="H6977">boucles</char> sont pleines des <char style="w" strong="H7447">gouttes</char> de la <char style="w" strong="H3915">nuit</char>. -
+      <verse eid="SNG 5:2" />
+      <verse number="3" style="v" sid="SNG 5:3" />
+      J’ai <char style="w" strong="H6584">ôté</char> ma <char style="w" strong="H3801">tunique</char> ; <char style="w" strong="H0349">comment</char> la <char style="w" strong="H3847">remettrais</char>-je ? J’ai <char style="w" strong="H7364">lavé</char> mes <char style="w" strong="H7272">pieds</char> ; <char style="w" strong="H0349">comment</char> les <char style="w" strong="H2936">salirais</char>-je ?
+      <verse eid="SNG 5:3" />
+      <verse number="4" style="v" sid="SNG 5:4" />
+      Mon <char style="w" strong="H1730">bien-aimé</char> a <char style="w" strong="H7971">passé</char> la <char style="w" strong="H3027">main</char> <char style="w" strong="H4480">par</char> la <char style="w" strong="H2356">fenêtre</char>, Et mes <char style="w" strong="H4578">entrailles</char> se sont <char style="w" strong="H1993">émues</char> pour <char style="w" strong="H5921">lui</char>.
+      <verse eid="SNG 5:4" />
+      <verse number="5" style="v" sid="SNG 5:5" />
+      <char style="w" strong="H0589">Je</char> me suis <char style="w" strong="H6965">levée</char> pour <char style="w" strong="H6605">ouvrir</char> à mon <char style="w" strong="H1730">bien-aimé</char> ; Et de mes <char style="w" strong="H3027">mains</char> a <char style="w" strong="H5197">dégoutté</char> la <char style="w" strong="H4753">myrrhe</char>, De mes <char style="w" strong="H0676">doigts</char>, la <char style="w" strong="H4753">myrrhe</char> <char style="w" strong="H5674">répandue</char> <char style="w" strong="H5921">Sur</char> la <char style="w" strong="H3709">poignée</char> du <char style="w" strong="H4514">verrou</char>.
+      <verse eid="SNG 5:5" />
+      <verse number="6" style="v" sid="SNG 5:6" />
+      <char style="w" strong="H0589">J’</char>ai <char style="w" strong="H6605">ouvert</char> à mon <char style="w" strong="H1730">bien-aimé</char> ; Mais mon <char style="w" strong="H1730">bien-aimé</char> s’en était <char style="w" strong="H2559">allé</char>, il avait <char style="w" strong="H5674">disparu</char>. J’étais hors de moi, quand il me <char style="w" strong="H1696">parlait</char>. Je l’<char style="w" strong="H5315">ai</char> <char style="w" strong="H1245">cherché</char>, et je <char style="w" strong="H3808">ne</char> l’<char style="w" strong="H3318">ai</char> point <char style="w" strong="H4672">trouvé</char> ; Je l’ai <char style="w" strong="H7121">appelé</char>, et il <char style="w" strong="H3808">ne</char> m’a point <char style="w" strong="H6030">répondu</char>.
+      <verse eid="SNG 5:6" />
+      <verse number="7" style="v" sid="SNG 5:7" />
+      Les <char style="w" strong="H8104">gardes</char> qui font la <char style="w" strong="H5437">ronde</char> dans la <char style="w" strong="H5892">ville</char> m’ont <char style="w" strong="H4672">rencontrée</char> ; Ils m’ont <char style="w" strong="H5221">frappée</char>, ils m’ont <char style="w" strong="H6481">blessée</char> ; Ils m’ont <char style="w" strong="H5375">enlevé</char> mon <char style="w" strong="H7289">voile</char><char style="w" strong="H5921">,</char> les <char style="w" strong="H8104">gardes</char> des <char style="w" strong="H2346">murs</char>.
+      <verse eid="SNG 5:7" />
+      <verse number="8" style="v" sid="SNG 5:8" />
+      Je <char style="w" strong="H0853">vous</char> en <char style="w" strong="H7650">conjure</char>, <char style="w" strong="H1323">filles</char> de <char style="w" strong="H3389">Jérusalem</char>, <char style="w" strong="H0518">Si</char> vous <char style="w" strong="H4672">trouvez</char> mon <char style="w" strong="H1730">bien-aimé</char>, <char style="w" strong="H4100">Que</char> lui <char style="w" strong="H5046">direz</char>-vous ?… Que <char style="w" strong="H0589">je</char> suis <char style="w" strong="H2470">malade</char> d’<char style="w" strong="H0160">amour</char>. -
+      <verse eid="SNG 5:8" />
+      <verse number="9" style="v" sid="SNG 5:9" />
+      Qu’a ton <char style="w" strong="H1730">bien-aimé</char> de plus <char style="w" strong="H4100">qu’</char>un <char style="w" strong="H1730">autre</char>, Ô la plus <char style="w" strong="H3303">belle</char> des <char style="w" strong="H0802">femmes</char> ? Qu’a ton <char style="w" strong="H1730">bien-aimé</char> de plus <char style="w" strong="H4100">qu’</char>un autre<char style="w" strong="H1730">,</char> Pour que tu nous <char style="w" strong="H7650">conjures</char> <char style="w" strong="H3602">ainsi</char> ? -
+      <verse eid="SNG 5:9" />
+      <verse number="10" style="v" sid="SNG 5:10" />
+      Mon <char style="w" strong="H1730">bien-aimé</char> est <char style="w" strong="H6703">blanc</char> et <char style="w" strong="H0122">vermeil</char> ; Il se <char style="w" strong="H1713">distingue</char> entre dix <char style="w" strong="H7233">mille</char>.
+      <verse eid="SNG 5:10" />
+      <verse number="11" style="v" sid="SNG 5:11" />
+      Sa <char style="w" strong="H7218">tête</char> est de l’<char style="w" strong="H3800">or</char> <char style="w" strong="H6337">pur</char> ; Ses <char style="w" strong="H6977">boucles</char> sont <char style="w" strong="H8534">flottantes</char>, <char style="w" strong="H7838">Noires</char> comme le <char style="w" strong="H6158">corbeau</char>.
+      <verse eid="SNG 5:11" />
+      <verse number="12" style="v" sid="SNG 5:12" />
+      Ses <char style="w" strong="H5869">yeux</char> sont comme des <char style="w" strong="H3123">colombes</char> au <char style="w" strong="H4325">bord</char> <char style="w" strong="H5921">des</char> <char style="w" strong="H0650">ruisseaux</char>, Se <char style="w" strong="H7364">baignant</char> dans <char style="w" strong="H5921">le</char> <char style="w" strong="H2461">lait</char>, <char style="w" strong="H3427">Reposant</char> au sein de l’<char style="w" strong="H4402">abondance</char>.
+      <verse eid="SNG 5:12" />
+      <verse number="13" style="v" sid="SNG 5:13" />
+      Ses <char style="w" strong="H3895">joues</char> sont comme un <char style="w" strong="H6170">parterre</char> d’<char style="w" strong="H1314">aromates</char>, Une couche de <char style="w" strong="H4026">plantes</char> <char style="w" strong="H4840">odorantes</char> ; Ses <char style="w" strong="H8193">lèvres</char> sont des <char style="w" strong="H7799">lis</char>, D’où <char style="w" strong="H5197">découle</char> la <char style="w" strong="H4753">myrrhe</char><char style="w" strong="H5674"></char>.
+      <verse eid="SNG 5:13" />
+      <verse number="14" style="v" sid="SNG 5:14" />
+      Ses <char style="w" strong="H3027">mains</char> sont des <char style="w" strong="H1550">anneaux</char> d’<char style="w" strong="H2091">or</char>, <char style="w" strong="H4390">Garnis</char> de <char style="w" strong="H8658">chrysolithes</char> ; Son <char style="w" strong="H4578">corps</char> est de l’<char style="w" strong="H8127">ivoire</char> <char style="w" strong="H6247">poli</char>, <char style="w" strong="H5968">Couvert</char> de <char style="w" strong="H5601">saphirs</char> ;
+      <verse eid="SNG 5:14" />
+      <verse number="15" style="v" sid="SNG 5:15" />
+      Ses <char style="w" strong="H7785">jambes</char> sont des <char style="w" strong="H5982">colonnes</char> de marbre <char style="w" strong="H8336">blanc</char>, <char style="w" strong="H3245">Posées</char> <char style="w" strong="H5921">sur</char> des <char style="w" strong="H0134">bases</char> d’or <char style="w" strong="H6337">pur</char>. Son <char style="w" strong="H4758">aspect</char> est comme le <char style="w" strong="H3844">Liban</char>, <char style="w" strong="H0977">Distingué</char> comme les <char style="w" strong="H0730">cèdres</char>.
+      <verse eid="SNG 5:15" />
+      <verse number="16" style="v" sid="SNG 5:16" />
+      Son <char style="w" strong="H2441">palais</char> n’est que <char style="w" strong="H4477">douceur</char>, Et <char style="w" strong="H3605">toute</char> sa personne est pleine de <char style="w" strong="H4261">charme</char>. Tel <char style="w" strong="H2088">est</char> mon <char style="w" strong="H1730">bien-aimé</char>, tel <char style="w" strong="H2088">est</char> mon <char style="w" strong="H7453">ami</char>, <char style="w" strong="H1323">Filles</char> de <char style="w" strong="H3389">Jérusalem</char> ! –
+      <verse eid="SNG 5:16" />
+  </chapter>
+  <chapter number="6" style="c" sid="SNG 6">
+      <verse number="1" style="v" sid="SNG 6:1" />
+      <char style="w" strong="H0575">Où</char> est <char style="w" strong="H1980">allé</char> ton <char style="w" strong="H1730">bien-aimé</char>, Ô la plus <char style="w" strong="H3303">belle</char> des <char style="w" strong="H0802">femmes</char> ? De quel <char style="w" strong="H0575">côté</char> ton <char style="w" strong="H1730">bien-aimé</char> s’est-il <char style="w" strong="H6437">dirigé</char> ? Nous le <char style="w" strong="H1245">chercherons</char> avec <char style="w" strong="H5973">toi</char>.
+      <verse eid="SNG 6:1" />
+      <verse number="2" style="v" sid="SNG 6:2" />
+      Mon <char style="w" strong="H1730">bien-aimé</char> est <char style="w" strong="H3381">descendu</char> à son <char style="w" strong="H1588">jardin</char>, Au <char style="w" strong="H6170">parterre</char> d’<char style="w" strong="H1314">aromates</char>, Pour faire <char style="w" strong="H7462">paître</char> son troupeau dans les <char style="w" strong="H1588">jardins</char>, Et pour <char style="w" strong="H3950">cueillir</char> des <char style="w" strong="H7799">lis</char>.
+      <verse eid="SNG 6:2" />
+      <verse number="3" style="v" sid="SNG 6:3" />
+      <char style="w" strong="H0589">Je</char> suis à mon <char style="w" strong="H1730">bien-aimé</char>, et mon <char style="w" strong="H1730">bien-aimé</char> est à moi ; Il fait <char style="w" strong="H7462">paître</char> son troupeau parmi les <char style="w" strong="H7799">lis</char>. -
+      <verse eid="SNG 6:3" />
+      <verse number="4" style="v" sid="SNG 6:4" />
+      <char style="w" strong="H0859">Tu</char> es <char style="w" strong="H3303">belle</char>, mon <char style="w" strong="H7474">amie</char>, comme <char style="w" strong="H8656">Thirtsa</char>, <char style="w" strong="H5000">Agréable</char> comme <char style="w" strong="H3389">Jérusalem</char>, Mais <char style="w" strong="H0366">terrible</char> comme des troupes sous leurs <char style="w" strong="H1713">bannières</char>.
+      <verse eid="SNG 6:4" />
+      <verse number="5" style="v" sid="SNG 6:5" />
+      <char style="w" strong="H5437">Détourne</char> de <char style="w" strong="H5048">moi</char> tes <char style="w" strong="H5869">yeux</char>, car <char style="w" strong="H1992">ils</char> me <char style="w" strong="H7292">troublent</char>. Tes <char style="w" strong="H8181">cheveux</char> sont comme un <char style="w" strong="H5739">troupeau</char> de <char style="w" strong="H5795">chèvres</char>, <char style="w" strong="H1570">Suspendues</char> aux flancs <char style="w" strong="H4480">de</char> <char style="w" strong="H1568">Galaad</char>.
+      <verse eid="SNG 6:5" />
+      <verse number="6" style="v" sid="SNG 6:6" />
+      Tes <char style="w" strong="H8127">dents</char> sont comme un <char style="w" strong="H5739">troupeau</char> de <char style="w" strong="H7353">brebis</char>, Qui <char style="w" strong="H5927">remontent</char> de l’<char style="w" strong="H7367">abreuvoir</char> ; <char style="w" strong="H3605">Toutes</char> <char style="w" strong="H4480">portent</char> des <char style="w" strong="H8382">jumeaux</char>, Aucune d’elles <char style="w" strong="H0369">n’</char>est <char style="w" strong="H7909">stérile</char>.
+      <verse eid="SNG 6:6" />
+      <verse number="7" style="v" sid="SNG 6:7" />
+      Ta <char style="w" strong="H7541">joue</char> est comme une <char style="w" strong="H6400">moitié</char> de <char style="w" strong="H7416">grenade</char>, <char style="w" strong="H1157">Derrière</char> ton <char style="w" strong="H6777">voile</char>…
+      <verse eid="SNG 6:7" />
+      <verse number="8" style="v" sid="SNG 6:8" />
+      Il y <char style="w" strong="H1992">a</char> <char style="w" strong="H8346">soixante</char> <char style="w" strong="H4436">reines</char>, <char style="w" strong="H8084">quatre-vingts</char> <char style="w" strong="H6370">concubines</char>, Et des jeunes <char style="w" strong="H5959">filles</char> <char style="w" strong="H0369">sans</char> <char style="w" strong="H4557">nombre</char>.
+      <verse eid="SNG 6:8" />
+      <verse number="9" style="v" sid="SNG 6:9" />
+      Une <char style="w" strong="H0259">seule</char> est <char style="w" strong="H1931">ma</char> <char style="w" strong="H3123">colombe</char>, ma <char style="w" strong="H8535">parfaite</char> ; <char style="w" strong="H1931">Elle</char> est l’<char style="w" strong="H0259">unique</char> de sa <char style="w" strong="H0517">mère</char>, La <char style="w" strong="H1249">préférée</char> de celle <char style="w" strong="H1931">qui</char> lui <char style="w" strong="H3205">donna</char> le jour. Les jeunes <char style="w" strong="H1323">filles</char> la <char style="w" strong="H7200">voient</char>, et la disent <char style="w" strong="H0833">heureuse</char> ; Les <char style="w" strong="H4436">reines</char> et les <char style="w" strong="H6370">concubines</char> aussi, et elles la <char style="w" strong="H1984">louent</char>. -
+      <verse eid="SNG 6:9" />
+      <verse number="10" style="v" sid="SNG 6:10" />
+      Qui <char style="w" strong="H4310">est</char> celle <char style="w" strong="H2063">qui</char> <char style="w" strong="H8259">apparaît</char> <char style="w" strong="H3644">comme</char> l’<char style="w" strong="H7837">aurore</char>, <char style="w" strong="H3303">Belle</char> comme la <char style="w" strong="H3842">lune</char>, <char style="w" strong="H1249">pure</char> comme le <char style="w" strong="H2535">soleil</char>, Mais <char style="w" strong="H0366">terrible</char> comme des troupes sous leurs <char style="w" strong="H1713">bannières</char> ? -
+      <verse eid="SNG 6:10" />
+      <verse number="11" style="v" sid="SNG 6:11" />
+      Je suis <char style="w" strong="H3381">descendue</char> <char style="w" strong="H0413">au</char> <char style="w" strong="H1594">jardin</char> des <char style="w" strong="H0093">noyers</char>, Pour <char style="w" strong="H7200">voir</char> la <char style="w" strong="H0003">verdure</char> de la <char style="w" strong="H5158">vallée</char>, Pour <char style="w" strong="H7200">voir</char> si la <char style="w" strong="H1612">vigne</char> <char style="w" strong="H6524">pousse</char>, Si les <char style="w" strong="H7416">grenadiers</char> <char style="w" strong="H5132">fleurissent</char>.
+      <verse eid="SNG 6:11" />
+      <verse number="12" style="v" sid="SNG 6:12" />
+      Je <char style="w" strong="H3808">ne</char> <char style="w" strong="H3045">sais</char>, mais mon <char style="w" strong="H5315">désir</char> m’a <char style="w" strong="H7760">rendue</char> semblable Aux <char style="w" strong="H4818">chars</char> de mon <char style="w" strong="H5081">noble</char> <char style="w" strong="H5971">peuple</char>. –
+      <verse eid="SNG 6:12" />
+  </chapter>
+  <chapter number="7" style="c" sid="SNG 7">
+      <verse number="1" style="v" sid="SNG 7:1" />
+      <char style="w" strong="H7725">Reviens</char>, <char style="w" strong="H7725">reviens</char>, <char style="w" strong="H7759">Sulamithe</char> ! <char style="w" strong="H7725">Reviens</char>, <char style="w" strong="H7725">reviens</char>, afin que nous te <char style="w" strong="H2372">regardions</char>. -<char style="w" strong="H4100">Qu’</char>avez-vous à <char style="w" strong="H2372">regarder</char> la <char style="w" strong="H7759">Sulamithe</char> Comme une <char style="w" strong="H4246">danse</char> de deux <char style="w" strong="H4264">chœurs</char> ?
+      <verse eid="SNG 7:1" />
+      <verse number="2" style="v" sid="SNG 7:2" />
+      <char style="w" strong="H4100">Que</char> tes <char style="w" strong="H6471">pieds</char> sont <char style="w" strong="H3303">beaux</char> dans ta <char style="w" strong="H5275">chaussure</char>, <char style="w" strong="H1323">fille</char> de <char style="w" strong="H5081">prince</char> ! Les <char style="w" strong="H2542">contours</char> de ta <char style="w" strong="H3409">hanche</char> sont <char style="w" strong="H3644">comme</char> des <char style="w" strong="H2481">colliers</char>, <char style="w" strong="H4639">Œuvre</char> des <char style="w" strong="H3027">mains</char> d’un <char style="w" strong="H0542">artiste</char>.
+      <verse eid="SNG 7:2" />
+      <verse number="3" style="v" sid="SNG 7:3" />
+      Ton <char style="w" strong="H8326">sein</char> est une <char style="w" strong="H0101">coupe</char> <char style="w" strong="H5469">arrondie</char>, Où le vin <char style="w" strong="H4197">parfumé</char> ne <char style="w" strong="H2637">manque</char> <char style="w" strong="H0408">pas</char> ; Ton <char style="w" strong="H0990">corps</char> est un <char style="w" strong="H6194">tas</char> de <char style="w" strong="H2406">froment</char>, <char style="w" strong="H5473">Entouré</char> de <char style="w" strong="H7799">lis</char>.
+      <verse eid="SNG 7:3" />
+      <verse number="4" style="v" sid="SNG 7:4" />
+      Tes <char style="w" strong="H8147">deux</char> <char style="w" strong="H7699">seins</char> sont comme <char style="w" strong="H8147">deux</char> <char style="w" strong="H6082">faons</char>, Comme les <char style="w" strong="H8380">jumeaux</char> d’une <char style="w" strong="H6646">gazelle</char>.
+      <verse eid="SNG 7:4" />
+      <verse number="5" style="v" sid="SNG 7:5" />
+      Ton <char style="w" strong="H6677">cou</char> est comme une <char style="w" strong="H4026">tour</char> d’<char style="w" strong="H8127">ivoire</char> ; Tes <char style="w" strong="H5869">yeux</char> sont comme les <char style="w" strong="H1295">étangs</char> de <char style="w" strong="H2809">Hesbon</char>, Près <char style="w" strong="H5921">de</char> la <char style="w" strong="H8179">porte</char> de <char style="w" strong="H1337">Bath</char>-<char style="w" strong="H1337">Rabbim</char> ; Ton <char style="w" strong="H0639">nez</char> est comme la <char style="w" strong="H4026">tour</char> du <char style="w" strong="H3844">Liban</char>, Qui <char style="w" strong="H6822">regarde</char> du <char style="w" strong="H6440">côté</char> de <char style="w" strong="H1834">Damas</char>.
+      <verse eid="SNG 7:5" />
+      <verse number="6" style="v" sid="SNG 7:6" />
+      Ta <char style="w" strong="H7218">tête</char> est <char style="w" strong="H5921">élevée</char> comme le <char style="w" strong="H3760">Carmel</char>, Et les <char style="w" strong="H1803">cheveux</char> de ta <char style="w" strong="H7218">tête</char> sont comme la <char style="w" strong="H0713">pourpre</char> ; Un <char style="w" strong="H4428">roi</char> est <char style="w" strong="H0631">enchaîné</char> par des <char style="w" strong="H7298">boucles</char> !…
+      <verse eid="SNG 7:6" />
+      <verse number="7" style="v" sid="SNG 7:7" />
+      <char style="w" strong="H4100">Que</char> tu es <char style="w" strong="H3302">belle</char>, <char style="w" strong="H4100">que</char> tu es <char style="w" strong="H5276">agréable</char>, Ô mon <char style="w" strong="H0160">amour</char>, au milieu des <char style="w" strong="H8588">délices</char> !
+      <verse eid="SNG 7:7" />
+      <verse number="8" style="v" sid="SNG 7:8" />
+      <char style="w" strong="H2063">Ta</char> <char style="w" strong="H6967">taille</char> <char style="w" strong="H1819">ressemble</char> au <char style="w" strong="H8558">palmier</char>, Et tes <char style="w" strong="H7699">seins</char> à des <char style="w" strong="H0811">grappes</char>.
+      <verse eid="SNG 7:8" />
+      <verse number="9" style="v" sid="SNG 7:9" />
+      Je me <char style="w" strong="H0559">dis</char> : Je <char style="w" strong="H5927">monterai</char> sur le <char style="w" strong="H8558">palmier</char>, J’en <char style="w" strong="H0270">saisirai</char> les <char style="w" strong="H5577">rameaux</char> ! <char style="w" strong="H4994">Que</char> tes <char style="w" strong="H7699">seins</char> <char style="w" strong="H1961">soient</char> comme les <char style="w" strong="H0811">grappes</char> de la <char style="w" strong="H1612">vigne</char>, Le <char style="w" strong="H7381">parfum</char> de ton <char style="w" strong="H0639">souffle</char> comme celui des <char style="w" strong="H8598">pommes</char>,
+      <verse eid="SNG 7:9" />
+      <verse number="10" style="v" sid="SNG 7:10" />
+      Et ta <char style="w" strong="H2441">bouche</char> comme un <char style="w" strong="H3196">vin</char> <char style="w" strong="H2896">excellent</char>,… -Qui <char style="w" strong="H1980">coule</char> <char style="w" strong="H4339">aisément</char> pour mon <char style="w" strong="H1730">bien-aimé</char>, Et <char style="w" strong="H1680">glisse</char> sur les <char style="w" strong="H8193">lèvres</char> de ceux qui s’<char style="w" strong="H3462">endorment</char> !
+      <verse eid="SNG 7:10" />
+      <verse number="11" style="v" sid="SNG 7:11" />
+      Je <char style="w" strong="H0589">suis</char> à mon <char style="w" strong="H1730">bien-aimé</char>, Et ses <char style="w" strong="H8669">désirs</char> se portent vers <char style="w" strong="H5921">moi</char>.
+      <verse eid="SNG 7:11" />
+      <verse number="12" style="v" sid="SNG 7:12" />
+      <char style="w" strong="H3212">Viens</char>, mon <char style="w" strong="H1730">bien-aimé</char>, <char style="w" strong="H3318">sortons</char> dans les <char style="w" strong="H7704">champs</char>, <char style="w" strong="H3885">Demeurons</char> dans les <char style="w" strong="H3723">villages</char> !
+      <verse eid="SNG 7:12" />
+      <verse number="13" style="v" sid="SNG 7:13" />
+      Dès le <char style="w" strong="H7925">matin</char> nous irons aux <char style="w" strong="H3754">vignes</char>, Nous <char style="w" strong="H7200">verrons</char> <char style="w" strong="H0518">si</char> la <char style="w" strong="H1612">vigne</char> <char style="w" strong="H6524">pousse</char>, si la <char style="w" strong="H5563">fleur</char> s’<char style="w" strong="H6605">ouvre</char>, Si les <char style="w" strong="H7416">grenadiers</char> <char style="w" strong="H5132">fleurissent</char>. <char style="w" strong="H8033">Là</char> je te <char style="w" strong="H5414">donnerai</char> mon <char style="w" strong="H1730">amour</char>.
+      <verse eid="SNG 7:13" />
+      <verse number="14" style="v" sid="SNG 7:14" />
+      Les <char style="w" strong="H1736">mandragores</char> <char style="w" strong="H5414">répandent</char> leur <char style="w" strong="H7381">parfum</char>, Et nous avons <char style="w" strong="H5921">à</char> nos <char style="w" strong="H6607">portes</char> <char style="w" strong="H3605">tous</char> les <char style="w" strong="H4022">meilleurs</char> fruits, <char style="w" strong="H2319">Nouveaux</char> <char style="w" strong="H1571">et</char> <char style="w" strong="H3465">anciens</char> : Mon <char style="w" strong="H1730">bien-aimé</char>, je les ai <char style="w" strong="H6845">gardés</char> pour toi.
+      <verse eid="SNG 7:14" />
+  </chapter>
+  <chapter number="8" style="c" sid="SNG 8">
+      <verse number="1" style="v" sid="SNG 8:1" />
+      <char style="w" strong="H5414">Oh</char> ! <char style="w" strong="H4310">Que</char> n’es-tu mon <char style="w" strong="H0251">frère</char>, <char style="w" strong="H3243">Allaité</char> des <char style="w" strong="H7699">mamelles</char> de ma <char style="w" strong="H0517">mère</char> ! Je te <char style="w" strong="H4672">rencontrerais</char> <char style="w" strong="H2351">dehors</char>, je t’<char style="w" strong="H5401">embrasserais</char><char style="w" strong="H1571">,</char> Et <char style="w" strong="H3808">l’</char>on ne me <char style="w" strong="H0936">mépriserait</char> pas.
+      <verse eid="SNG 8:1" />
+      <verse number="2" style="v" sid="SNG 8:2" />
+      Je veux te <char style="w" strong="H5090">conduire</char>, t’<char style="w" strong="H0935">amener</char> <char style="w" strong="H0413">à</char> la <char style="w" strong="H1004">maison</char> de ma <char style="w" strong="H0517">mère</char> ; Tu me donneras tes <char style="w" strong="H3925">instructions</char>, Et je te ferai <char style="w" strong="H8248">boire</char> du <char style="w" strong="H3196">vin</char> <char style="w" strong="H7544">parfumé</char>, Du <char style="w" strong="H6071">moût</char> de mes <char style="w" strong="H7416">grenades</char>.
+      <verse eid="SNG 8:2" />
+      <verse number="3" style="v" sid="SNG 8:3" />
+      Que sa main <char style="w" strong="H8040">gauche</char> soit <char style="w" strong="H8478">sous</char> ma <char style="w" strong="H7218">tête</char>, Et que sa <char style="w" strong="H3225">droite</char> m’<char style="w" strong="H2263">embrasse</char> ! -
+      <verse eid="SNG 8:3" />
+      <verse number="4" style="v" sid="SNG 8:4" />
+      Je <char style="w" strong="H0853">vous</char> en <char style="w" strong="H7650">conjure</char>, <char style="w" strong="H1323">filles</char> de <char style="w" strong="H3389">Jérusalem</char>, Ne <char style="w" strong="H5782">réveillez</char> <char style="w" strong="H4100">pas</char><char style="w" strong="H4100">,</char> ne <char style="w" strong="H5782">réveillez</char> pas l’<char style="w" strong="H0160">amour</char>, <char style="w" strong="H5704">Avant</char> qu’elle le <char style="w" strong="H2654">veuille</char>. -
+      <verse eid="SNG 8:4" />
+      <verse number="5" style="v" sid="SNG 8:5" />
+      Qui <char style="w" strong="H4310">est</char> celle <char style="w" strong="H2063">qui</char> <char style="w" strong="H5927">monte</char> <char style="w" strong="H4480">du</char> <char style="w" strong="H4057">désert</char>, <char style="w" strong="H7514">Appuyée</char> <char style="w" strong="H5921">sur</char> son <char style="w" strong="H1730">bien-aimé</char> ? -Je t’ai <char style="w" strong="H5782">réveillée</char> <char style="w" strong="H8478">sous</char> le <char style="w" strong="H8598">pommier</char> ; <char style="w" strong="H8033">Là</char> ta <char style="w" strong="H0517">mère</char> t’a <char style="w" strong="H2254">enfantée</char>, C’est <char style="w" strong="H8033">là</char> qu’elle t’a <char style="w" strong="H2254">enfantée</char>, qu’elle t’a donné le <char style="w" strong="H3205">jour</char>. -
+      <verse eid="SNG 8:5" />
+      <verse number="6" style="v" sid="SNG 8:6" />
+      <char style="w" strong="H7760">Mets</char>-moi comme un <char style="w" strong="H2368">sceau</char> <char style="w" strong="H5921">sur</char> ton <char style="w" strong="H3820">cœur</char>, Comme un <char style="w" strong="H2368">sceau</char> <char style="w" strong="H5921">sur</char> ton <char style="w" strong="H2220">bras</char> ; <char style="w" strong="H3588">Car</char> l’<char style="w" strong="H0160">amour</char> est <char style="w" strong="H5794">fort</char> comme la <char style="w" strong="H4194">mort</char>, La <char style="w" strong="H7068">jalousie</char> est <char style="w" strong="H7186">inflexible</char> comme le séjour des <char style="w" strong="H7585">morts</char> ; Ses <char style="w" strong="H7565">ardeurs</char> sont des <char style="w" strong="H7565">ardeurs</char> de <char style="w" strong="H0784">feu</char>, Une <char style="w" strong="H7957">flamme</char> de l’<char style="w" strong="H3050">Éternel</char>.
+      <verse eid="SNG 8:6" />
+      <verse number="7" style="v" sid="SNG 8:7" />
+      Les <char style="w" strong="H7227">grandes</char> <char style="w" strong="H4325">eaux</char> <char style="w" strong="H3808">ne</char> <char style="w" strong="H3201">peuvent</char> <char style="w" strong="H3518">éteindre</char> l’<char style="w" strong="H0160">amour</char>, Et les <char style="w" strong="H5104">fleuves</char> ne le <char style="w" strong="H7857">submergeraient</char> <char style="w" strong="H3808">pas</char> ; <char style="w" strong="H0518">Quand</char> un <char style="w" strong="H0376">homme</char> <char style="w" strong="H5414">offrirait</char> <char style="w" strong="H3605">tous</char> les <char style="w" strong="H1952">biens</char> de sa <char style="w" strong="H1004">maison</char> contre l’<char style="w" strong="H0160">amour</char>, Il ne s’<char style="w" strong="H0936">attirerait</char> que le <char style="w" strong="H0936">mépris</char>.
+      <verse eid="SNG 8:7" />
+      <verse number="8" style="v" sid="SNG 8:8" />
+      Nous avons une <char style="w" strong="H6996">petite</char> <char style="w" strong="H0269">sœur</char>, Qui n’a point encore <char style="w" strong="H0369">de</char> <char style="w" strong="H7699">mamelles</char> ; <char style="w" strong="H4100">Que</char> <char style="w" strong="H6213">ferons</char>-nous de notre <char style="w" strong="H0269">sœur</char>, Le <char style="w" strong="H3117">jour</char> où on la <char style="w" strong="H1696">recherchera</char> ?
+      <verse eid="SNG 8:8" />
+      <verse number="9" style="v" sid="SNG 8:9" />
+      <char style="w" strong="H0518">Si</char> <char style="w" strong="H1931">elle</char> est un <char style="w" strong="H2346">mur</char>, Nous <char style="w" strong="H1129">bâtirons</char> sur <char style="w" strong="H5921">elle</char> des <char style="w" strong="H2918">créneaux</char> d’<char style="w" strong="H3701">argent</char> ; <char style="w" strong="H0518">Si</char> <char style="w" strong="H1931">elle</char> est une <char style="w" strong="H1817">porte</char>, Nous la <char style="w" strong="H6696">fermerons</char> <char style="w" strong="H5921">avec</char> une <char style="w" strong="H3871">planche</char> de <char style="w" strong="H0730">cèdre</char>. -
+      <verse eid="SNG 8:9" />
+      <verse number="10" style="v" sid="SNG 8:10" />
+      <char style="w" strong="H0589">Je</char> suis un <char style="w" strong="H2346">mur</char>, Et mes <char style="w" strong="H7699">seins</char> sont comme des <char style="w" strong="H4026">tours</char> ; <char style="w" strong="H0227">J’</char>ai <char style="w" strong="H1961">été</char> à ses <char style="w" strong="H5869">yeux</char> comme celle qui <char style="w" strong="H4672">trouve</char> la <char style="w" strong="H7965">paix</char>.
+      <verse eid="SNG 8:10" />
+      <verse number="11" style="v" sid="SNG 8:11" />
+      <char style="w" strong="H8010">Salomon</char> <char style="w" strong="H1961">avait</char> une <char style="w" strong="H3754">vigne</char> à <char style="w" strong="H1174">Baal</char>-<char style="w" strong="H1174">Hamon</char> ; Il <char style="w" strong="H5414">remit</char> la <char style="w" strong="H3754">vigne</char> à des <char style="w" strong="H5201">gardiens</char> ; <char style="w" strong="H0376">Chacun</char> <char style="w" strong="H0935">apportait</char> pour son <char style="w" strong="H6529">fruit</char> <char style="w" strong="H0505">mille</char> sicles d’<char style="w" strong="H3701">argent</char>.
+      <verse eid="SNG 8:11" />
+      <verse number="12" style="v" sid="SNG 8:12" />
+      Ma <char style="w" strong="H3754">vigne</char>, qui est à moi, je la <char style="w" strong="H6440">garde</char>. À toi, <char style="w" strong="H8010">Salomon</char>, les <char style="w" strong="H0505">mille</char> sicles, Et deux <char style="w" strong="H3967">cents</char> à ceux qui <char style="w" strong="H5201">gardent</char> le <char style="w" strong="H6529">fruit</char> ! -
+      <verse eid="SNG 8:12" />
+      <verse number="13" style="v" sid="SNG 8:13" />
+      <char style="w" strong="H3427">Habitante</char> des <char style="w" strong="H1588">jardins</char> ! Des <char style="w" strong="H2270">amis</char> prêtent l’<char style="w" strong="H7181">oreille</char> à ta <char style="w" strong="H6963">voix</char>. Daigne me la faire <char style="w" strong="H8085">entendre</char> ! -
+      <verse eid="SNG 8:13" />
+      <verse number="14" style="v" sid="SNG 8:14" />
+      <char style="w" strong="H1272">Fuis</char>, mon <char style="w" strong="H1730">bien-aimé</char> ! Sois <char style="w" strong="H1819">semblable</char> à la <char style="w" strong="H6643">gazelle</char> <char style="w" strong="H0176">ou</char> au <char style="w" strong="H6082">faon</char> des <char style="w" strong="H0354">biches</char>, <char style="w" strong="H5921">Sur</char> les <char style="w" strong="H2022">montagnes</char> des <char style="w" strong="H1314">aromates</char> !
+      <verse eid="SNG 8:14" />
+  </chapter>
+  </usx>

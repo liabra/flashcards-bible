@@ -1,5 +1,5 @@
 // --- VERSIONING DU CACHE (changer le numéro force une mise à jour) ---
-const CACHE_NAME = 'bible-flashcards-v4';
+const CACHE_NAME = 'bible-flashcards-v5';
 
 // --- LISTE DES FICHIERS À CACHER ---
 const urlsToCache = [

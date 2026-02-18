@@ -1,5 +1,13 @@
 {
+  "name": "flashcards-bible",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
+    "express": "^4.22.1",
     "fast-xml-parser": "^5.3.6",
     "slugify": "^1.6.6"
   }
